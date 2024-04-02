@@ -88,6 +88,7 @@ export type ProjectType = {
 
 export type FeedbackType = {
   name: string;
+  mail?: string;
   role: string;
   feedback: string;
 };

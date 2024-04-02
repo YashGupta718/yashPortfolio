@@ -107,6 +107,11 @@ body {
 	outline: 0 !important;
 }
 
+.pSkillsText{
+	/* margin-bottom: 0px !important; */
+	margin-bottom: 0px;
+}
+
 hr {
 	box-sizing: content-box;
 	height: 0;
@@ -15361,6 +15366,7 @@ button.section-darker:focus {
 	}
 	.pb-250 {
 		padding-bottom: 250px !important;
+		/* padding-bottom: 250px; */
 	}
 	.pt-300 {
 		padding-top: 300px !important;

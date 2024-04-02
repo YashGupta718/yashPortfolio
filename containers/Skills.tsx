@@ -19,7 +19,7 @@ const Skills = () => {
                   <DisplayLottie animationPath={section.lottieAnimationFile} />
                 </Col>
                 <Col lg="6" className="order-1 order-lg-2">
-                  <h3 className="h3 mb-2">{section.title}</h3>
+                  {/* <h3 className="h3 mb-2">{section.title}</h3> */}
                   <div className="d-flex justify-content-center flex-wrap mb-2">
                     {section.softwareSkills.map((skill, i) => {
                       return (
@@ -43,7 +43,11 @@ const Skills = () => {
                   </div>
                   <div>
                     {section.skills.map((skill, i) => {
-                      return <p key={i}>{skill}</p>;
+                      return (
+                        <p key={i} className="pSkillsText">
+                          {skill}
+                        </p>
+                      );
                     })}
                   </div>
                 </Col>

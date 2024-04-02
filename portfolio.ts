@@ -36,15 +36,26 @@ export const socialLinks: SocialLinksType = {
 
 export const skillsSection: SkillsSectionType = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CONSTANLY CODING, CONTINUOUSLY LEARNING: Crafting innovative solutions one line of code at a time.",
   data: [
     {
       title: "Full Stack Development",
       lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
-        emoji("⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"),
-        emoji("⚡ Building responsive static websites using Next.js"),
-        emoji("⚡ Building RESTful APIs in Django & Django REST Framework"),
+        emoji("⚡ JavaScript , ReactJs , Redux , TypeScript , Postman , HTML , CSS , Java "),
+        emoji(" C , C++ , Sql , Spring Boot , Git , Github"),
+        emoji("...................................................................."),
+        emoji(
+          "In my role as a Software Developer at RS-Infy, I led the development and implementation of an Enterprise Resource Planning system (ERP) for leading e-commerce companies. This experience not only enhanced my frontend development skills but also provided valuable insights into backend architecture and database management."
+        ),
+        emoji("...................................................................."),
+        emoji(
+          "As a final-year B.Tech student, I bring a wealth of experience in frontend development and an unwavering commitment to expanding my expertise into backend development. "
+        ),
+        emoji("...................................................................."),
+        emoji(
+          "My journey in software development has been marked by a passion for learning and a dedication to mastering new technologies. I am currently exploring Spring Boot and other backend technologies to broaden my skill set and contribute to full-stack projects."
+        ),
       ],
       softwareSkills: [
         {
@@ -287,15 +298,16 @@ export const projects: ProjectType[] = [
 export const feedbacks: FeedbackType[] = [
   {
     name: "Shagun",
+    mail: "mailto:shagun.saboo@rsinfy.com",
     role: "Co-founder at Rs-Infy",
     feedback:
-      "You were a wonderful addition to our team, alhumdulillah. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. Finding a good teammate like Hanzla is extremely difficult. He has contributed to the growth of our organization and continues to do so. May Allah bless you with everything you desire.",
+      "You were a wonderful addition to our team Yash. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. He has contributed to the growth of our organization and continues to do so.",
   },
   {
     name: "Rishab Jain",
     role: "Project head at Clapingo",
     feedback:
-      "Hanzla has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Hanzla is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Hanzla for any Full Stack Django, React.js, or Blockchain development projects, and I wish him all the best in his future endeavors.",
+      "Yash has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Yash is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Yash for any SD roles, React.js, and I wish him all the best in his future endeavors.",
   },
   // {
   //   name: "Zaid Zaffar",
@@ -322,6 +334,8 @@ export const seoData: SEODataType = {
     "ReactJs",
     "JavaScript",
     "TypeScript",
+    "HTML",
+    "CSS",
     "API Integration",
     "Software Developer",
   ],
