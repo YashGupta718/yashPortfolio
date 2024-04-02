@@ -1,199 +1,635 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
+"use strict";
 (() => {
 var exports = {};
-exports.id = "pages/index";
-exports.ids = ["pages/index"];
+exports.id = 405;
+exports.ids = [405];
 exports.modules = {
 
-/***/ "./node_modules/@swc/helpers/lib/_extends.js":
-/*!***************************************************!*\
-  !*** ./node_modules/@swc/helpers/lib/_extends.js ***!
-  \***************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));\nObject.defineProperty(exports, \"default\", ({\n    enumerable: true,\n    get: function() {\n        return _extends;\n    }\n}));\nfunction extends_() {\n    extends_ = Object.assign || function(target) {\n        for(var i = 1; i < arguments.length; i++){\n            var source = arguments[i];\n            for(var key in source){\n                if (Object.prototype.hasOwnProperty.call(source, key)) {\n                    target[key] = source[key];\n                }\n            }\n        }\n        return target;\n    };\n    return extends_.apply(this, arguments);\n}\nfunction _extends() {\n    return extends_.apply(this, arguments);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvQHN3Yy9oZWxwZXJzL2xpYi9fZXh0ZW5kcy5qcy5qcyIsIm1hcHBpbmdzIjoiQUFBYTtBQUNiLDhDQUE2QztBQUM3QztBQUNBLENBQUMsRUFBQztBQUNGLDJDQUEwQztBQUMxQztBQUNBO0FBQ0E7QUFDQTtBQUNBLENBQUMsRUFBQztBQUNGO0FBQ0E7QUFDQSx1QkFBdUIsc0JBQXNCO0FBQzdDO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kZXZlbG9wZXItcG9ydGZvbGlvLy4vbm9kZV9tb2R1bGVzL0Bzd2MvaGVscGVycy9saWIvX2V4dGVuZHMuanM/Mzk4YSJdLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBzdHJpY3RcIjtcbk9iamVjdC5kZWZpbmVQcm9wZXJ0eShleHBvcnRzLCBcIl9fZXNNb2R1bGVcIiwge1xuICAgIHZhbHVlOiB0cnVlXG59KTtcbk9iamVjdC5kZWZpbmVQcm9wZXJ0eShleHBvcnRzLCBcImRlZmF1bHRcIiwge1xuICAgIGVudW1lcmFibGU6IHRydWUsXG4gICAgZ2V0OiBmdW5jdGlvbigpIHtcbiAgICAgICAgcmV0dXJuIF9leHRlbmRzO1xuICAgIH1cbn0pO1xuZnVuY3Rpb24gZXh0ZW5kc18oKSB7XG4gICAgZXh0ZW5kc18gPSBPYmplY3QuYXNzaWduIHx8IGZ1bmN0aW9uKHRhcmdldCkge1xuICAgICAgICBmb3IodmFyIGkgPSAxOyBpIDwgYXJndW1lbnRzLmxlbmd0aDsgaSsrKXtcbiAgICAgICAgICAgIHZhciBzb3VyY2UgPSBhcmd1bWVudHNbaV07XG4gICAgICAgICAgICBmb3IodmFyIGtleSBpbiBzb3VyY2Upe1xuICAgICAgICAgICAgICAgIGlmIChPYmplY3QucHJvdG90eXBlLmhhc093blByb3BlcnR5LmNhbGwoc291cmNlLCBrZXkpKSB7XG4gICAgICAgICAgICAgICAgICAgIHRhcmdldFtrZXldID0gc291cmNlW2tleV07XG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgfVxuICAgICAgICB9XG4gICAgICAgIHJldHVybiB0YXJnZXQ7XG4gICAgfTtcbiAgICByZXR1cm4gZXh0ZW5kc18uYXBwbHkodGhpcywgYXJndW1lbnRzKTtcbn1cbmZ1bmN0aW9uIF9leHRlbmRzKCkge1xuICAgIHJldHVybiBleHRlbmRzXy5hcHBseSh0aGlzLCBhcmd1bWVudHMpO1xufVxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./node_modules/@swc/helpers/lib/_extends.js\n");
-
-/***/ }),
-
-/***/ "./node_modules/@swc/helpers/lib/_interop_require_default.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/@swc/helpers/lib/_interop_require_default.js ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, exports) => {
-
-"use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));\nObject.defineProperty(exports, \"default\", ({\n    enumerable: true,\n    get: function() {\n        return _interopRequireDefault;\n    }\n}));\nfunction _interopRequireDefault(obj) {\n    return obj && obj.__esModule ? obj : {\n        default: obj\n    };\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvQHN3Yy9oZWxwZXJzL2xpYi9faW50ZXJvcF9yZXF1aXJlX2RlZmF1bHQuanMuanMiLCJtYXBwaW5ncyI6IkFBQWE7QUFDYiw4Q0FBNkM7QUFDN0M7QUFDQSxDQUFDLEVBQUM7QUFDRiwyQ0FBMEM7QUFDMUM7QUFDQTtBQUNBO0FBQ0E7QUFDQSxDQUFDLEVBQUM7QUFDRjtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZGV2ZWxvcGVyLXBvcnRmb2xpby8uL25vZGVfbW9kdWxlcy9Ac3djL2hlbHBlcnMvbGliL19pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdC5qcz85YjdjIl0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIHN0cmljdFwiO1xuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiX19lc01vZHVsZVwiLCB7XG4gICAgdmFsdWU6IHRydWVcbn0pO1xuT2JqZWN0LmRlZmluZVByb3BlcnR5KGV4cG9ydHMsIFwiZGVmYXVsdFwiLCB7XG4gICAgZW51bWVyYWJsZTogdHJ1ZSxcbiAgICBnZXQ6IGZ1bmN0aW9uKCkge1xuICAgICAgICByZXR1cm4gX2ludGVyb3BSZXF1aXJlRGVmYXVsdDtcbiAgICB9XG59KTtcbmZ1bmN0aW9uIF9pbnRlcm9wUmVxdWlyZURlZmF1bHQob2JqKSB7XG4gICAgcmV0dXJuIG9iaiAmJiBvYmouX19lc01vZHVsZSA/IG9iaiA6IHtcbiAgICAgICAgZGVmYXVsdDogb2JqXG4gICAgfTtcbn1cbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/@swc/helpers/lib/_interop_require_default.js\n");
-
-/***/ }),
-
-/***/ "./components/SEO.tsx":
-/*!****************************!*\
-  !*** ./components/SEO.tsx ***!
-  \****************************/
+/***/ 174:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _portfolio__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../portfolio */ \"./portfolio.ts\");\n\n\n\n\nfunction SEO() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_2___default()), {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                children: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.title\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 8,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"title\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.title\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 9,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"author\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.author\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"description\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.description\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 11,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"keywords\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.keywords.join(\", \")\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 12,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"canonical\",\n                href: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.url\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 13,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:type\",\n                content: \"website\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 15,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:url\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.url\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 16,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:title\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.title\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 17,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:description\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.description\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 18,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:image\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.image\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 19,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"og:site_name\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.title\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 20,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"twitter:card\",\n                content: \"summary_large_image\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 22,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"twitter:url\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.url\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 23,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"twitter:title\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.title\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 24,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"twitter:description\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.description\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 25,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                property: \"twitter:image\",\n                content: _portfolio__WEBPACK_IMPORTED_MODULE_3__.seoData.image\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 26,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                name: \"robots\",\n                content: \"Index\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 27,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"manifest\",\n                href: \"/manifest.json\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 28,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"apple-touch-icon\",\n                sizes: \"120x120\",\n                href: \"./favicon.png\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 30,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"icon\",\n                type: \"image/png\",\n                sizes: \"32x32\",\n                href: \"./favicon.png\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 31,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                rel: \"icon\",\n                type: \"image/png\",\n                sizes: \"16x16\",\n                href: \"./favicon.png\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n                lineNumber: 32,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\components\\\\SEO.tsx\",\n        lineNumber: 7,\n        columnNumber: 5\n    }, this);\n}\n// SEO.prototype = {\n//   data: PropTypes.shape({\n//     title: PropTypes.string.isRequired,\n//     author: PropTypes.string,\n//     description: PropTypes.string,\n//     image: PropTypes.string,\n//     url: PropTypes.string,\n//     keywords: PropTypes.arrayOf(PropTypes.string),\n//   }).isRequired,\n// };\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (SEO);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9jb21wb25lbnRzL1NFTy50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQTBCO0FBQ0c7QUFDVTtBQUV2QyxTQUFTRyxNQUFNO0lBQ2IscUJBQ0UsOERBQUNGLGtEQUFJQTs7MEJBQ0gsOERBQUNHOzBCQUFPRixxREFBYTs7Ozs7OzBCQUNyQiw4REFBQ0c7Z0JBQUtDLE1BQUs7Z0JBQVFDLFNBQVNMLHFEQUFhOzs7Ozs7MEJBQ3pDLDhEQUFDRztnQkFBS0MsTUFBSztnQkFBU0MsU0FBU0wsc0RBQWM7Ozs7OzswQkFDM0MsOERBQUNHO2dCQUFLQyxNQUFLO2dCQUFjQyxTQUFTTCwyREFBbUI7Ozs7OzswQkFDckQsOERBQUNHO2dCQUFLQyxNQUFLO2dCQUFXQyxTQUFTTCw2REFBcUIsQ0FBQzs7Ozs7OzBCQUNyRCw4REFBQ1U7Z0JBQUtDLEtBQUk7Z0JBQVlDLE1BQU1aLG1EQUFXOzs7Ozs7MEJBRXZDLDhEQUFDRztnQkFBS1csVUFBUztnQkFBVVQsU0FBUTs7Ozs7OzBCQUNqQyw4REFBQ0Y7Z0JBQUtXLFVBQVM7Z0JBQVNULFNBQVNMLG1EQUFXOzs7Ozs7MEJBQzVDLDhEQUFDRztnQkFBS1csVUFBUztnQkFBV1QsU0FBU0wscURBQWE7Ozs7OzswQkFDaEQsOERBQUNHO2dCQUFLVyxVQUFTO2dCQUFpQlQsU0FBU0wsMkRBQW1COzs7Ozs7MEJBQzVELDhEQUFDRztnQkFBS1csVUFBUztnQkFBV1QsU0FBU0wscURBQWE7Ozs7OzswQkFDaEQsOERBQUNHO2dCQUFLVyxVQUFTO2dCQUFlVCxTQUFTTCxxREFBYTs7Ozs7OzBCQUVwRCw4REFBQ0c7Z0JBQUtXLFVBQVM7Z0JBQWVULFNBQVE7Ozs7OzswQkFDdEMsOERBQUNGO2dCQUFLVyxVQUFTO2dCQUFjVCxTQUFTTCxtREFBVzs7Ozs7OzBCQUNqRCw4REFBQ0c7Z0JBQUtXLFVBQVM7Z0JBQWdCVCxTQUFTTCxxREFBYTs7Ozs7OzBCQUNyRCw4REFBQ0c7Z0JBQUtXLFVBQVM7Z0JBQXNCVCxTQUFTTCwyREFBbUI7Ozs7OzswQkFDakUsOERBQUNHO2dCQUFLVyxVQUFTO2dCQUFnQlQsU0FBU0wscURBQWE7Ozs7OzswQkFDckQsOERBQUNHO2dCQUFLQyxNQUFLO2dCQUFTQyxTQUFROzs7Ozs7MEJBQzVCLDhEQUFDSztnQkFBS0MsS0FBSTtnQkFBV0MsTUFBSzs7Ozs7OzBCQUUxQiw4REFBQ0Y7Z0JBQUtDLEtBQUk7Z0JBQW1CSyxPQUFNO2dCQUFVSixNQUFLOzs7Ozs7MEJBQ2xELDhEQUFDRjtnQkFBS0MsS0FBSTtnQkFBT00sTUFBSztnQkFBWUQsT0FBTTtnQkFBUUosTUFBSzs7Ozs7OzBCQUNyRCw4REFBQ0Y7Z0JBQUtDLEtBQUk7Z0JBQU9NLE1BQUs7Z0JBQVlELE9BQU07Z0JBQVFKLE1BQUs7Ozs7Ozs7Ozs7OztBQUczRDtBQUVBLG9CQUFvQjtBQUNwQiw0QkFBNEI7QUFDNUIsMENBQTBDO0FBQzFDLGdDQUFnQztBQUNoQyxxQ0FBcUM7QUFDckMsK0JBQStCO0FBQy9CLDZCQUE2QjtBQUM3QixxREFBcUQ7QUFDckQsbUJBQW1CO0FBQ25CLEtBQUs7QUFFTCxpRUFBZVgsR0FBR0EsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL2RldmVsb3Blci1wb3J0Zm9saW8vLi9jb21wb25lbnRzL1NFTy50c3g/NjBmYiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSBcInJlYWN0XCI7XG5pbXBvcnQgSGVhZCBmcm9tIFwibmV4dC9oZWFkXCI7XG5pbXBvcnQgeyBzZW9EYXRhIH0gZnJvbSBcIi4uL3BvcnRmb2xpb1wiO1xuXG5mdW5jdGlvbiBTRU8oKSB7XG4gIHJldHVybiAoXG4gICAgPEhlYWQ+XG4gICAgICA8dGl0bGU+e3Nlb0RhdGEudGl0bGV9PC90aXRsZT5cbiAgICAgIDxtZXRhIG5hbWU9XCJ0aXRsZVwiIGNvbnRlbnQ9e3Nlb0RhdGEudGl0bGV9IC8+XG4gICAgICA8bWV0YSBuYW1lPVwiYXV0aG9yXCIgY29udGVudD17c2VvRGF0YS5hdXRob3J9IC8+XG4gICAgICA8bWV0YSBuYW1lPVwiZGVzY3JpcHRpb25cIiBjb250ZW50PXtzZW9EYXRhLmRlc2NyaXB0aW9ufSAvPlxuICAgICAgPG1ldGEgbmFtZT1cImtleXdvcmRzXCIgY29udGVudD17c2VvRGF0YS5rZXl3b3Jkcy5qb2luKFwiLCBcIil9IC8+XG4gICAgICA8bGluayByZWw9XCJjYW5vbmljYWxcIiBocmVmPXtzZW9EYXRhLnVybH0gLz5cbiAgICAgIHsvKiBPcGVuIEdyYXBoIC8gRmFjZWJvb2sgKi99XG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnR5cGVcIiBjb250ZW50PVwid2Vic2l0ZVwiIC8+XG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOnVybFwiIGNvbnRlbnQ9e3Nlb0RhdGEudXJsfSAvPlxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzp0aXRsZVwiIGNvbnRlbnQ9e3Nlb0RhdGEudGl0bGV9IC8+XG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cIm9nOmRlc2NyaXB0aW9uXCIgY29udGVudD17c2VvRGF0YS5kZXNjcmlwdGlvbn0gLz5cbiAgICAgIDxtZXRhIHByb3BlcnR5PVwib2c6aW1hZ2VcIiBjb250ZW50PXtzZW9EYXRhLmltYWdlfSAvPlxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJvZzpzaXRlX25hbWVcIiBjb250ZW50PXtzZW9EYXRhLnRpdGxlfSAvPlxuICAgICAgey8qIFR3aXR0ZXIgKi99XG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cInR3aXR0ZXI6Y2FyZFwiIGNvbnRlbnQ9XCJzdW1tYXJ5X2xhcmdlX2ltYWdlXCIgLz5cbiAgICAgIDxtZXRhIHByb3BlcnR5PVwidHdpdHRlcjp1cmxcIiBjb250ZW50PXtzZW9EYXRhLnVybH0gLz5cbiAgICAgIDxtZXRhIHByb3BlcnR5PVwidHdpdHRlcjp0aXRsZVwiIGNvbnRlbnQ9e3Nlb0RhdGEudGl0bGV9IC8+XG4gICAgICA8bWV0YSBwcm9wZXJ0eT1cInR3aXR0ZXI6ZGVzY3JpcHRpb25cIiBjb250ZW50PXtzZW9EYXRhLmRlc2NyaXB0aW9ufSAvPlxuICAgICAgPG1ldGEgcHJvcGVydHk9XCJ0d2l0dGVyOmltYWdlXCIgY29udGVudD17c2VvRGF0YS5pbWFnZX0gLz5cbiAgICAgIDxtZXRhIG5hbWU9XCJyb2JvdHNcIiBjb250ZW50PVwiSW5kZXhcIiAvPlxuICAgICAgPGxpbmsgcmVsPVwibWFuaWZlc3RcIiBocmVmPVwiL21hbmlmZXN0Lmpzb25cIiAvPlxuICAgICAgey8qIEZhdmljb24gKi99XG4gICAgICA8bGluayByZWw9XCJhcHBsZS10b3VjaC1pY29uXCIgc2l6ZXM9XCIxMjB4MTIwXCIgaHJlZj1cIi4vZmF2aWNvbi5wbmdcIiAvPlxuICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIHR5cGU9XCJpbWFnZS9wbmdcIiBzaXplcz1cIjMyeDMyXCIgaHJlZj1cIi4vZmF2aWNvbi5wbmdcIiAvPlxuICAgICAgPGxpbmsgcmVsPVwiaWNvblwiIHR5cGU9XCJpbWFnZS9wbmdcIiBzaXplcz1cIjE2eDE2XCIgaHJlZj1cIi4vZmF2aWNvbi5wbmdcIiAvPlxuICAgIDwvSGVhZD5cbiAgKTtcbn1cblxuLy8gU0VPLnByb3RvdHlwZSA9IHtcbi8vICAgZGF0YTogUHJvcFR5cGVzLnNoYXBlKHtcbi8vICAgICB0aXRsZTogUHJvcFR5cGVzLnN0cmluZy5pc1JlcXVpcmVkLFxuLy8gICAgIGF1dGhvcjogUHJvcFR5cGVzLnN0cmluZyxcbi8vICAgICBkZXNjcmlwdGlvbjogUHJvcFR5cGVzLnN0cmluZyxcbi8vICAgICBpbWFnZTogUHJvcFR5cGVzLnN0cmluZyxcbi8vICAgICB1cmw6IFByb3BUeXBlcy5zdHJpbmcsXG4vLyAgICAga2V5d29yZHM6IFByb3BUeXBlcy5hcnJheU9mKFByb3BUeXBlcy5zdHJpbmcpLFxuLy8gICB9KS5pc1JlcXVpcmVkLFxuLy8gfTtcblxuZXhwb3J0IGRlZmF1bHQgU0VPO1xuIl0sIm5hbWVzIjpbIlJlYWN0IiwiSGVhZCIsInNlb0RhdGEiLCJTRU8iLCJ0aXRsZSIsIm1ldGEiLCJuYW1lIiwiY29udGVudCIsImF1dGhvciIsImRlc2NyaXB0aW9uIiwia2V5d29yZHMiLCJqb2luIiwibGluayIsInJlbCIsImhyZWYiLCJ1cmwiLCJwcm9wZXJ0eSIsImltYWdlIiwic2l6ZXMiLCJ0eXBlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./components/SEO.tsx\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Home),
+  "getStaticProps": () => (/* binding */ getStaticProps)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: ./node_modules/next/dynamic.js
+var dynamic = __webpack_require__(152);
+var dynamic_default = /*#__PURE__*/__webpack_require__.n(dynamic);
+// EXTERNAL MODULE: ./portfolio.ts + 1 modules
+var portfolio = __webpack_require__(805);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(689);
+;// CONCATENATED MODULE: external "next/head"
+const head_namespaceObject = require("next/head");
+var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
+;// CONCATENATED MODULE: ./components/SEO.tsx
+
+
+
+
+function SEO() {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("title", {
+                children: portfolio/* seoData.title */.hD.title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "title",
+                content: portfolio/* seoData.title */.hD.title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "author",
+                content: portfolio/* seoData.author */.hD.author
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "description",
+                content: portfolio/* seoData.description */.hD.description
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "keywords",
+                content: portfolio/* seoData.keywords.join */.hD.keywords.join(", ")
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "canonical",
+                href: portfolio/* seoData.url */.hD.url
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "og:type",
+                content: "website"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "og:url",
+                content: portfolio/* seoData.url */.hD.url
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "og:title",
+                content: portfolio/* seoData.title */.hD.title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "og:description",
+                content: portfolio/* seoData.description */.hD.description
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "og:image",
+                content: portfolio/* seoData.image */.hD.image
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "og:site_name",
+                content: portfolio/* seoData.title */.hD.title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "twitter:card",
+                content: "summary_large_image"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "twitter:url",
+                content: portfolio/* seoData.url */.hD.url
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "twitter:title",
+                content: portfolio/* seoData.title */.hD.title
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "twitter:description",
+                content: portfolio/* seoData.description */.hD.description
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                property: "twitter:image",
+                content: portfolio/* seoData.image */.hD.image
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                name: "robots",
+                content: "Index"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "manifest",
+                href: "/manifest.json"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "apple-touch-icon",
+                sizes: "120x120",
+                href: "./favicon.png"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "icon",
+                type: "image/png",
+                sizes: "32x32",
+                href: "./favicon.png"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                rel: "icon",
+                type: "image/png",
+                sizes: "16x16",
+                href: "./favicon.png"
+            })
+        ]
+    });
+}
+// SEO.prototype = {
+//   data: PropTypes.shape({
+//     title: PropTypes.string.isRequired,
+//     author: PropTypes.string,
+//     description: PropTypes.string,
+//     image: PropTypes.string,
+//     url: PropTypes.string,
+//     keywords: PropTypes.arrayOf(PropTypes.string),
+//   }).isRequired,
+// };
+/* harmony default export */ const components_SEO = (SEO);
+
+;// CONCATENATED MODULE: ./pages/index.tsx
+
+
+const Navigation = dynamic_default()(()=>__webpack_require__.e(/* import() */ 581).then(__webpack_require__.bind(__webpack_require__, 581)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../components/Navigation"
+        ]
+    }
+});
+const Greetings = dynamic_default()(()=>Promise.all(/* import() */[__webpack_require__.e(819), __webpack_require__.e(471)]).then(__webpack_require__.bind(__webpack_require__, 471)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../containers/Greetings"
+        ]
+    }
+});
+const Skills = dynamic_default()(()=>__webpack_require__.e(/* import() */ 7).then(__webpack_require__.bind(__webpack_require__, 7)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../containers/Skills"
+        ]
+    }
+});
+const Proficiency = dynamic_default()(()=>__webpack_require__.e(/* import() */ 440).then(__webpack_require__.bind(__webpack_require__, 440)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../containers/Proficiency"
+        ]
+    }
+});
+const Education = dynamic_default()(()=>__webpack_require__.e(/* import() */ 380).then(__webpack_require__.bind(__webpack_require__, 380)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../containers/Education"
+        ]
+    }
+});
+const Experience = dynamic_default()(()=>__webpack_require__.e(/* import() */ 949).then(__webpack_require__.bind(__webpack_require__, 949)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../containers/Experience"
+        ]
+    }
+});
+const Projects = dynamic_default()(()=>__webpack_require__.e(/* import() */ 668).then(__webpack_require__.bind(__webpack_require__, 668)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../containers/Projects"
+        ]
+    }
+});
+const Feedbacks = dynamic_default()(()=>__webpack_require__.e(/* import() */ 85).then(__webpack_require__.bind(__webpack_require__, 85)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../containers/Feedbacks"
+        ]
+    }
+});
+const GithubProfileCard = dynamic_default()(()=>Promise.all(/* import() */[__webpack_require__.e(819), __webpack_require__.e(77)]).then(__webpack_require__.bind(__webpack_require__, 77)), {
+    loadableGenerated: {
+        modules: [
+            "index.tsx -> " + "../components/GithubProfileCard"
+        ]
+    }
+});
+
+
+function Home({ githubProfileData  }) {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx(components_SEO, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Navigation, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Greetings, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Skills, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Education, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Experience, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Projects, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(Feedbacks, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(GithubProfileCard, {
+                ...githubProfileData
+            })
+        ]
+    });
+}
+// Home.prototype = {
+//   githubProfileData: PropTypes.object.isRequired,
+// };
+async function getStaticProps() {
+    const githubProfileData = await fetch(`https://api.github.com/users/${portfolio/* openSource.githubUserName */.qL.githubUserName}`).then((res)=>res.json());
+    return {
+        props: {
+            githubProfileData
+        }
+    };
+}
+
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/shared/lib/dynamic.js":
-/*!******************************************************!*\
-  !*** ./node_modules/next/dist/shared/lib/dynamic.js ***!
-  \******************************************************/
-/***/ ((module, exports, __webpack_require__) => {
-
-"use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", ({\n    value: true\n}));\nexports[\"default\"] = dynamic;\nexports.noSSR = noSSR;\nvar _extends = (__webpack_require__(/*! @swc/helpers/lib/_extends.js */ \"./node_modules/@swc/helpers/lib/_extends.js\")[\"default\"]);\nvar _interop_require_default = (__webpack_require__(/*! @swc/helpers/lib/_interop_require_default.js */ \"./node_modules/@swc/helpers/lib/_interop_require_default.js\")[\"default\"]);\nvar _react = _interop_require_default(__webpack_require__(/*! react */ \"react\"));\nvar _loadable = _interop_require_default(__webpack_require__(/*! ./loadable */ \"./loadable\"));\nfunction dynamic(dynamicOptions, options) {\n    let loadableFn = _loadable.default;\n    let loadableOptions = {\n        // A loading component is not required, so we default it\n        loading: ({ error , isLoading , pastDelay  })=>{\n            if (!pastDelay) return null;\n            if (true) {\n                if (isLoading) {\n                    return null;\n                }\n                if (error) {\n                    return /*#__PURE__*/ _react.default.createElement(\"p\", null, error.message, /*#__PURE__*/ _react.default.createElement(\"br\", null), error.stack);\n                }\n            }\n            return null;\n        }\n    };\n    // Support for direct import(), eg: dynamic(import('../hello-world'))\n    // Note that this is only kept for the edge case where someone is passing in a promise as first argument\n    // The react-loadable babel plugin will turn dynamic(import('../hello-world')) into dynamic(() => import('../hello-world'))\n    // To make sure we don't execute the import without rendering first\n    if (dynamicOptions instanceof Promise) {\n        loadableOptions.loader = ()=>dynamicOptions;\n    // Support for having import as a function, eg: dynamic(() => import('../hello-world'))\n    } else if (typeof dynamicOptions === \"function\") {\n        loadableOptions.loader = dynamicOptions;\n    // Support for having first argument being options, eg: dynamic({loader: import('../hello-world')})\n    } else if (typeof dynamicOptions === \"object\") {\n        loadableOptions = _extends({}, loadableOptions, dynamicOptions);\n    }\n    // Support for passing options, eg: dynamic(import('../hello-world'), {loading: () => <p>Loading something</p>})\n    loadableOptions = _extends({}, loadableOptions, options);\n    const loaderFn = loadableOptions.loader;\n    const loader = ()=>loaderFn != null ? loaderFn().then(convertModule) : Promise.resolve(convertModule(()=>null));\n    // coming from build/babel/plugins/react-loadable-plugin.js\n    if (loadableOptions.loadableGenerated) {\n        loadableOptions = _extends({}, loadableOptions, loadableOptions.loadableGenerated);\n        delete loadableOptions.loadableGenerated;\n    }\n    // support for disabling server side rendering, eg: dynamic(() => import('../hello-world'), {ssr: false}).\n    if (typeof loadableOptions.ssr === \"boolean\" && !loadableOptions.ssr) {\n        delete loadableOptions.webpack;\n        delete loadableOptions.modules;\n        return noSSR(loadableFn, loadableOptions);\n    }\n    return loadableFn(_extends({}, loadableOptions, {\n        loader: loader\n    }));\n}\nconst isServerSide = \"undefined\" === \"undefined\";\n// Normalize loader to return the module as form { default: Component } for `React.lazy`.\n// Also for backward compatible since next/dynamic allows to resolve a component directly with loader\n// Client component reference proxy need to be converted to a module.\nfunction convertModule(mod) {\n    var ref;\n    return {\n        default: ((ref = mod) == null ? void 0 : ref.default) || mod\n    };\n}\nfunction noSSR(LoadableInitializer, loadableOptions) {\n    // Removing webpack and modules means react-loadable won't try preloading\n    delete loadableOptions.webpack;\n    delete loadableOptions.modules;\n    // This check is necessary to prevent react-loadable from initializing on the server\n    if (!isServerSide) {\n        return LoadableInitializer(loadableOptions);\n    }\n    const Loading = loadableOptions.loading;\n    // This will only be rendered on the server side\n    return ()=>/*#__PURE__*/ _react.default.createElement(Loading, {\n            error: null,\n            isLoading: true,\n            pastDelay: false,\n            timedOut: false\n        });\n}\nif ((typeof exports.default === \"function\" || typeof exports.default === \"object\" && exports.default !== null) && typeof exports.default.__esModule === \"undefined\") {\n    Object.defineProperty(exports.default, \"__esModule\", {\n        value: true\n    });\n    Object.assign(exports.default, exports);\n    module.exports = exports.default;\n} //# sourceMappingURL=dynamic.js.map\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L3NoYXJlZC9saWIvZHluYW1pYy5qcy5qcyIsIm1hcHBpbmdzIjoiQUFBYTtBQUNiQSw4Q0FBNkM7SUFDekNHLE9BQU8sSUFBSTtBQUNmLENBQUMsRUFBQztBQUNGRCxrQkFBZSxHQUFHRztBQUNsQkgsYUFBYSxHQUFHSTtBQUNoQixJQUFJQyxXQUFXQyxtSEFBK0M7QUFDOUQsSUFBSUMsMkJBQTJCRCxtSkFBK0Q7QUFDOUYsSUFBSUUsU0FBU0QseUJBQXlCRCxtQkFBT0EsQ0FBQyxvQkFBTztBQUNyRCxJQUFJRyxZQUFZRix5QkFBeUJELG1CQUFPQSxDQUFDLDhCQUFZO0FBQzdELFNBQVNILFFBQVFPLGNBQWMsRUFBRUMsT0FBTyxFQUFFO0lBQ3RDLElBQUlDLGFBQWFILFVBQVVQLE9BQU87SUFDbEMsSUFBSVcsa0JBQWtCO1FBQ2xCLHdEQUF3RDtRQUN4REMsU0FBUyxDQUFDLEVBQUVDLE1BQUssRUFBR0MsVUFBUyxFQUFHQyxVQUFTLEVBQUcsR0FBRztZQUMzQyxJQUFJLENBQUNBLFdBQVcsT0FBTyxJQUFJO1lBQzNCLElBQUlDLElBQXlCLEVBQWM7Z0JBQ3ZDLElBQUlGLFdBQVc7b0JBQ1gsT0FBTyxJQUFJO2dCQUNmLENBQUM7Z0JBQ0QsSUFBSUQsT0FBTztvQkFDUCxPQUFPLFdBQVcsR0FBR1AsT0FBT04sT0FBTyxDQUFDaUIsYUFBYSxDQUFDLEtBQUssSUFBSSxFQUFFSixNQUFNSyxPQUFPLEVBQUUsV0FBVyxHQUFHWixPQUFPTixPQUFPLENBQUNpQixhQUFhLENBQUMsTUFBTSxJQUFJLEdBQUdKLE1BQU1NLEtBQUs7Z0JBQ25KLENBQUM7WUFDTCxDQUFDO1lBQ0QsT0FBTyxJQUFJO1FBQ2Y7SUFDSjtJQUNBLHFFQUFxRTtJQUNyRSx3R0FBd0c7SUFDeEcsMkhBQTJIO0lBQzNILG1FQUFtRTtJQUNuRSxJQUFJWCwwQkFBMEJZLFNBQVM7UUFDbkNULGdCQUFnQlUsTUFBTSxHQUFHLElBQUliO0lBQ2pDLHVGQUF1RjtJQUN2RixPQUFPLElBQUksT0FBT0EsbUJBQW1CLFlBQVk7UUFDN0NHLGdCQUFnQlUsTUFBTSxHQUFHYjtJQUM3QixtR0FBbUc7SUFDbkcsT0FBTyxJQUFJLE9BQU9BLG1CQUFtQixVQUFVO1FBQzNDRyxrQkFBa0JSLFNBQVMsQ0FBQyxHQUFHUSxpQkFBaUJIO0lBQ3BELENBQUM7SUFDRCxnSEFBZ0g7SUFDaEhHLGtCQUFrQlIsU0FBUyxDQUFDLEdBQUdRLGlCQUFpQkY7SUFDaEQsTUFBTWEsV0FBV1gsZ0JBQWdCVSxNQUFNO0lBQ3ZDLE1BQU1BLFNBQVMsSUFBSUMsWUFBWSxJQUFJLEdBQUdBLFdBQVdDLElBQUksQ0FBQ0MsaUJBQWlCSixRQUFRSyxPQUFPLENBQUNELGNBQWMsSUFBSSxJQUFJLEVBQUU7SUFDL0csMkRBQTJEO0lBQzNELElBQUliLGdCQUFnQmUsaUJBQWlCLEVBQUU7UUFDbkNmLGtCQUFrQlIsU0FBUyxDQUFDLEdBQUdRLGlCQUFpQkEsZ0JBQWdCZSxpQkFBaUI7UUFDakYsT0FBT2YsZ0JBQWdCZSxpQkFBaUI7SUFDNUMsQ0FBQztJQUNELDBHQUEwRztJQUMxRyxJQUFJLE9BQU9mLGdCQUFnQmdCLEdBQUcsS0FBSyxhQUFhLENBQUNoQixnQkFBZ0JnQixHQUFHLEVBQUU7UUFDbEUsT0FBT2hCLGdCQUFnQmlCLE9BQU87UUFDOUIsT0FBT2pCLGdCQUFnQmtCLE9BQU87UUFDOUIsT0FBTzNCLE1BQU1RLFlBQVlDO0lBQzdCLENBQUM7SUFDRCxPQUFPRCxXQUFXUCxTQUFTLENBQUMsR0FBR1EsaUJBQWlCO1FBQzVDVSxRQUFRQTtJQUNaO0FBQ0o7QUFDQSxNQUFNUyxlQUFlLGdCQUFrQjtBQUN2Qyx5RkFBeUY7QUFDekYscUdBQXFHO0FBQ3JHLHFFQUFxRTtBQUNyRSxTQUFTTixjQUFjTyxHQUFHLEVBQUU7SUFDeEIsSUFBSUM7SUFDSixPQUFPO1FBQ0hoQyxTQUFTLENBQUMsQ0FBQ2dDLE1BQU1ELEdBQUUsS0FBTSxJQUFJLEdBQUcsS0FBSyxJQUFJQyxJQUFJaEMsT0FBTyxLQUFLK0I7SUFDN0Q7QUFDSjtBQUNBLFNBQVM3QixNQUFNK0IsbUJBQW1CLEVBQUV0QixlQUFlLEVBQUU7SUFDakQseUVBQXlFO0lBQ3pFLE9BQU9BLGdCQUFnQmlCLE9BQU87SUFDOUIsT0FBT2pCLGdCQUFnQmtCLE9BQU87SUFDOUIsb0ZBQW9GO0lBQ3BGLElBQUksQ0FBQ0MsY0FBYztRQUNmLE9BQU9HLG9CQUFvQnRCO0lBQy9CLENBQUM7SUFDRCxNQUFNdUIsVUFBVXZCLGdCQUFnQkMsT0FBTztJQUN2QyxnREFBZ0Q7SUFDaEQsT0FBTyxJQUFJLFdBQVcsR0FBR04sT0FBT04sT0FBTyxDQUFDaUIsYUFBYSxDQUFDaUIsU0FBUztZQUN2RHJCLE9BQU8sSUFBSTtZQUNYQyxXQUFXLElBQUk7WUFDZkMsV0FBVyxLQUFLO1lBQ2hCb0IsVUFBVSxLQUFLO1FBQ25CO0FBQ1I7QUFFQSxJQUFJLENBQUMsT0FBT3JDLFFBQVFFLE9BQU8sS0FBSyxjQUFlLE9BQU9GLFFBQVFFLE9BQU8sS0FBSyxZQUFZRixRQUFRRSxPQUFPLEtBQUssSUFBSSxLQUFNLE9BQU9GLFFBQVFFLE9BQU8sQ0FBQ29DLFVBQVUsS0FBSyxhQUFhO0lBQ3JLeEMsT0FBT0MsY0FBYyxDQUFDQyxRQUFRRSxPQUFPLEVBQUUsY0FBYztRQUFFRCxPQUFPLElBQUk7SUFBQztJQUNuRUgsT0FBT3lDLE1BQU0sQ0FBQ3ZDLFFBQVFFLE9BQU8sRUFBRUY7SUFDL0J3QyxPQUFPeEMsT0FBTyxHQUFHQSxRQUFRRSxPQUFPO0FBQ2xDLENBQUMsQ0FFRCxtQ0FBbUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9kZXZlbG9wZXItcG9ydGZvbGlvLy4vbm9kZV9tb2R1bGVzL25leHQvZGlzdC9zaGFyZWQvbGliL2R5bmFtaWMuanM/ZTI1ZCJdLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBzdHJpY3RcIjtcbk9iamVjdC5kZWZpbmVQcm9wZXJ0eShleHBvcnRzLCBcIl9fZXNNb2R1bGVcIiwge1xuICAgIHZhbHVlOiB0cnVlXG59KTtcbmV4cG9ydHMuZGVmYXVsdCA9IGR5bmFtaWM7XG5leHBvcnRzLm5vU1NSID0gbm9TU1I7XG52YXIgX2V4dGVuZHMgPSByZXF1aXJlKFwiQHN3Yy9oZWxwZXJzL2xpYi9fZXh0ZW5kcy5qc1wiKS5kZWZhdWx0O1xudmFyIF9pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdCA9IHJlcXVpcmUoXCJAc3djL2hlbHBlcnMvbGliL19pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdC5qc1wiKS5kZWZhdWx0O1xudmFyIF9yZWFjdCA9IF9pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdChyZXF1aXJlKFwicmVhY3RcIikpO1xudmFyIF9sb2FkYWJsZSA9IF9pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdChyZXF1aXJlKFwiLi9sb2FkYWJsZVwiKSk7XG5mdW5jdGlvbiBkeW5hbWljKGR5bmFtaWNPcHRpb25zLCBvcHRpb25zKSB7XG4gICAgbGV0IGxvYWRhYmxlRm4gPSBfbG9hZGFibGUuZGVmYXVsdDtcbiAgICBsZXQgbG9hZGFibGVPcHRpb25zID0ge1xuICAgICAgICAvLyBBIGxvYWRpbmcgY29tcG9uZW50IGlzIG5vdCByZXF1aXJlZCwgc28gd2UgZGVmYXVsdCBpdFxuICAgICAgICBsb2FkaW5nOiAoeyBlcnJvciAsIGlzTG9hZGluZyAsIHBhc3REZWxheSAgfSk9PntcbiAgICAgICAgICAgIGlmICghcGFzdERlbGF5KSByZXR1cm4gbnVsbDtcbiAgICAgICAgICAgIGlmIChwcm9jZXNzLmVudi5OT0RFX0VOViAhPT0gJ3Byb2R1Y3Rpb24nKSB7XG4gICAgICAgICAgICAgICAgaWYgKGlzTG9hZGluZykge1xuICAgICAgICAgICAgICAgICAgICByZXR1cm4gbnVsbDtcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgaWYgKGVycm9yKSB7XG4gICAgICAgICAgICAgICAgICAgIHJldHVybiAvKiNfX1BVUkVfXyovIF9yZWFjdC5kZWZhdWx0LmNyZWF0ZUVsZW1lbnQoXCJwXCIsIG51bGwsIGVycm9yLm1lc3NhZ2UsIC8qI19fUFVSRV9fKi8gX3JlYWN0LmRlZmF1bHQuY3JlYXRlRWxlbWVudChcImJyXCIsIG51bGwpLCBlcnJvci5zdGFjayk7XG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgfVxuICAgICAgICAgICAgcmV0dXJuIG51bGw7XG4gICAgICAgIH1cbiAgICB9O1xuICAgIC8vIFN1cHBvcnQgZm9yIGRpcmVjdCBpbXBvcnQoKSwgZWc6IGR5bmFtaWMoaW1wb3J0KCcuLi9oZWxsby13b3JsZCcpKVxuICAgIC8vIE5vdGUgdGhhdCB0aGlzIGlzIG9ubHkga2VwdCBmb3IgdGhlIGVkZ2UgY2FzZSB3aGVyZSBzb21lb25lIGlzIHBhc3NpbmcgaW4gYSBwcm9taXNlIGFzIGZpcnN0IGFyZ3VtZW50XG4gICAgLy8gVGhlIHJlYWN0LWxvYWRhYmxlIGJhYmVsIHBsdWdpbiB3aWxsIHR1cm4gZHluYW1pYyhpbXBvcnQoJy4uL2hlbGxvLXdvcmxkJykpIGludG8gZHluYW1pYygoKSA9PiBpbXBvcnQoJy4uL2hlbGxvLXdvcmxkJykpXG4gICAgLy8gVG8gbWFrZSBzdXJlIHdlIGRvbid0IGV4ZWN1dGUgdGhlIGltcG9ydCB3aXRob3V0IHJlbmRlcmluZyBmaXJzdFxuICAgIGlmIChkeW5hbWljT3B0aW9ucyBpbnN0YW5jZW9mIFByb21pc2UpIHtcbiAgICAgICAgbG9hZGFibGVPcHRpb25zLmxvYWRlciA9ICgpPT5keW5hbWljT3B0aW9ucztcbiAgICAvLyBTdXBwb3J0IGZvciBoYXZpbmcgaW1wb3J0IGFzIGEgZnVuY3Rpb24sIGVnOiBkeW5hbWljKCgpID0+IGltcG9ydCgnLi4vaGVsbG8td29ybGQnKSlcbiAgICB9IGVsc2UgaWYgKHR5cGVvZiBkeW5hbWljT3B0aW9ucyA9PT0gJ2Z1bmN0aW9uJykge1xuICAgICAgICBsb2FkYWJsZU9wdGlvbnMubG9hZGVyID0gZHluYW1pY09wdGlvbnM7XG4gICAgLy8gU3VwcG9ydCBmb3IgaGF2aW5nIGZpcnN0IGFyZ3VtZW50IGJlaW5nIG9wdGlvbnMsIGVnOiBkeW5hbWljKHtsb2FkZXI6IGltcG9ydCgnLi4vaGVsbG8td29ybGQnKX0pXG4gICAgfSBlbHNlIGlmICh0eXBlb2YgZHluYW1pY09wdGlvbnMgPT09ICdvYmplY3QnKSB7XG4gICAgICAgIGxvYWRhYmxlT3B0aW9ucyA9IF9leHRlbmRzKHt9LCBsb2FkYWJsZU9wdGlvbnMsIGR5bmFtaWNPcHRpb25zKTtcbiAgICB9XG4gICAgLy8gU3VwcG9ydCBmb3IgcGFzc2luZyBvcHRpb25zLCBlZzogZHluYW1pYyhpbXBvcnQoJy4uL2hlbGxvLXdvcmxkJyksIHtsb2FkaW5nOiAoKSA9PiA8cD5Mb2FkaW5nIHNvbWV0aGluZzwvcD59KVxuICAgIGxvYWRhYmxlT3B0aW9ucyA9IF9leHRlbmRzKHt9LCBsb2FkYWJsZU9wdGlvbnMsIG9wdGlvbnMpO1xuICAgIGNvbnN0IGxvYWRlckZuID0gbG9hZGFibGVPcHRpb25zLmxvYWRlcjtcbiAgICBjb25zdCBsb2FkZXIgPSAoKT0+bG9hZGVyRm4gIT0gbnVsbCA/IGxvYWRlckZuKCkudGhlbihjb252ZXJ0TW9kdWxlKSA6IFByb21pc2UucmVzb2x2ZShjb252ZXJ0TW9kdWxlKCgpPT5udWxsKSk7XG4gICAgLy8gY29taW5nIGZyb20gYnVpbGQvYmFiZWwvcGx1Z2lucy9yZWFjdC1sb2FkYWJsZS1wbHVnaW4uanNcbiAgICBpZiAobG9hZGFibGVPcHRpb25zLmxvYWRhYmxlR2VuZXJhdGVkKSB7XG4gICAgICAgIGxvYWRhYmxlT3B0aW9ucyA9IF9leHRlbmRzKHt9LCBsb2FkYWJsZU9wdGlvbnMsIGxvYWRhYmxlT3B0aW9ucy5sb2FkYWJsZUdlbmVyYXRlZCk7XG4gICAgICAgIGRlbGV0ZSBsb2FkYWJsZU9wdGlvbnMubG9hZGFibGVHZW5lcmF0ZWQ7XG4gICAgfVxuICAgIC8vIHN1cHBvcnQgZm9yIGRpc2FibGluZyBzZXJ2ZXIgc2lkZSByZW5kZXJpbmcsIGVnOiBkeW5hbWljKCgpID0+IGltcG9ydCgnLi4vaGVsbG8td29ybGQnKSwge3NzcjogZmFsc2V9KS5cbiAgICBpZiAodHlwZW9mIGxvYWRhYmxlT3B0aW9ucy5zc3IgPT09ICdib29sZWFuJyAmJiAhbG9hZGFibGVPcHRpb25zLnNzcikge1xuICAgICAgICBkZWxldGUgbG9hZGFibGVPcHRpb25zLndlYnBhY2s7XG4gICAgICAgIGRlbGV0ZSBsb2FkYWJsZU9wdGlvbnMubW9kdWxlcztcbiAgICAgICAgcmV0dXJuIG5vU1NSKGxvYWRhYmxlRm4sIGxvYWRhYmxlT3B0aW9ucyk7XG4gICAgfVxuICAgIHJldHVybiBsb2FkYWJsZUZuKF9leHRlbmRzKHt9LCBsb2FkYWJsZU9wdGlvbnMsIHtcbiAgICAgICAgbG9hZGVyOiBsb2FkZXJcbiAgICB9KSk7XG59XG5jb25zdCBpc1NlcnZlclNpZGUgPSB0eXBlb2Ygd2luZG93ID09PSAndW5kZWZpbmVkJztcbi8vIE5vcm1hbGl6ZSBsb2FkZXIgdG8gcmV0dXJuIHRoZSBtb2R1bGUgYXMgZm9ybSB7IGRlZmF1bHQ6IENvbXBvbmVudCB9IGZvciBgUmVhY3QubGF6eWAuXG4vLyBBbHNvIGZvciBiYWNrd2FyZCBjb21wYXRpYmxlIHNpbmNlIG5leHQvZHluYW1pYyBhbGxvd3MgdG8gcmVzb2x2ZSBhIGNvbXBvbmVudCBkaXJlY3RseSB3aXRoIGxvYWRlclxuLy8gQ2xpZW50IGNvbXBvbmVudCByZWZlcmVuY2UgcHJveHkgbmVlZCB0byBiZSBjb252ZXJ0ZWQgdG8gYSBtb2R1bGUuXG5mdW5jdGlvbiBjb252ZXJ0TW9kdWxlKG1vZCkge1xuICAgIHZhciByZWY7XG4gICAgcmV0dXJuIHtcbiAgICAgICAgZGVmYXVsdDogKChyZWYgPSBtb2QpID09IG51bGwgPyB2b2lkIDAgOiByZWYuZGVmYXVsdCkgfHwgbW9kXG4gICAgfTtcbn1cbmZ1bmN0aW9uIG5vU1NSKExvYWRhYmxlSW5pdGlhbGl6ZXIsIGxvYWRhYmxlT3B0aW9ucykge1xuICAgIC8vIFJlbW92aW5nIHdlYnBhY2sgYW5kIG1vZHVsZXMgbWVhbnMgcmVhY3QtbG9hZGFibGUgd29uJ3QgdHJ5IHByZWxvYWRpbmdcbiAgICBkZWxldGUgbG9hZGFibGVPcHRpb25zLndlYnBhY2s7XG4gICAgZGVsZXRlIGxvYWRhYmxlT3B0aW9ucy5tb2R1bGVzO1xuICAgIC8vIFRoaXMgY2hlY2sgaXMgbmVjZXNzYXJ5IHRvIHByZXZlbnQgcmVhY3QtbG9hZGFibGUgZnJvbSBpbml0aWFsaXppbmcgb24gdGhlIHNlcnZlclxuICAgIGlmICghaXNTZXJ2ZXJTaWRlKSB7XG4gICAgICAgIHJldHVybiBMb2FkYWJsZUluaXRpYWxpemVyKGxvYWRhYmxlT3B0aW9ucyk7XG4gICAgfVxuICAgIGNvbnN0IExvYWRpbmcgPSBsb2FkYWJsZU9wdGlvbnMubG9hZGluZztcbiAgICAvLyBUaGlzIHdpbGwgb25seSBiZSByZW5kZXJlZCBvbiB0aGUgc2VydmVyIHNpZGVcbiAgICByZXR1cm4gKCk9Pi8qI19fUFVSRV9fKi8gX3JlYWN0LmRlZmF1bHQuY3JlYXRlRWxlbWVudChMb2FkaW5nLCB7XG4gICAgICAgICAgICBlcnJvcjogbnVsbCxcbiAgICAgICAgICAgIGlzTG9hZGluZzogdHJ1ZSxcbiAgICAgICAgICAgIHBhc3REZWxheTogZmFsc2UsXG4gICAgICAgICAgICB0aW1lZE91dDogZmFsc2VcbiAgICAgICAgfSk7XG59XG5cbmlmICgodHlwZW9mIGV4cG9ydHMuZGVmYXVsdCA9PT0gJ2Z1bmN0aW9uJyB8fCAodHlwZW9mIGV4cG9ydHMuZGVmYXVsdCA9PT0gJ29iamVjdCcgJiYgZXhwb3J0cy5kZWZhdWx0ICE9PSBudWxsKSkgJiYgdHlwZW9mIGV4cG9ydHMuZGVmYXVsdC5fX2VzTW9kdWxlID09PSAndW5kZWZpbmVkJykge1xuICBPYmplY3QuZGVmaW5lUHJvcGVydHkoZXhwb3J0cy5kZWZhdWx0LCAnX19lc01vZHVsZScsIHsgdmFsdWU6IHRydWUgfSk7XG4gIE9iamVjdC5hc3NpZ24oZXhwb3J0cy5kZWZhdWx0LCBleHBvcnRzKTtcbiAgbW9kdWxlLmV4cG9ydHMgPSBleHBvcnRzLmRlZmF1bHQ7XG59XG5cbi8vIyBzb3VyY2VNYXBwaW5nVVJMPWR5bmFtaWMuanMubWFwIl0sIm5hbWVzIjpbIk9iamVjdCIsImRlZmluZVByb3BlcnR5IiwiZXhwb3J0cyIsInZhbHVlIiwiZGVmYXVsdCIsImR5bmFtaWMiLCJub1NTUiIsIl9leHRlbmRzIiwicmVxdWlyZSIsIl9pbnRlcm9wX3JlcXVpcmVfZGVmYXVsdCIsIl9yZWFjdCIsIl9sb2FkYWJsZSIsImR5bmFtaWNPcHRpb25zIiwib3B0aW9ucyIsImxvYWRhYmxlRm4iLCJsb2FkYWJsZU9wdGlvbnMiLCJsb2FkaW5nIiwiZXJyb3IiLCJpc0xvYWRpbmciLCJwYXN0RGVsYXkiLCJwcm9jZXNzIiwiY3JlYXRlRWxlbWVudCIsIm1lc3NhZ2UiLCJzdGFjayIsIlByb21pc2UiLCJsb2FkZXIiLCJsb2FkZXJGbiIsInRoZW4iLCJjb252ZXJ0TW9kdWxlIiwicmVzb2x2ZSIsImxvYWRhYmxlR2VuZXJhdGVkIiwic3NyIiwid2VicGFjayIsIm1vZHVsZXMiLCJpc1NlcnZlclNpZGUiLCJtb2QiLCJyZWYiLCJMb2FkYWJsZUluaXRpYWxpemVyIiwiTG9hZGluZyIsInRpbWVkT3V0IiwiX19lc01vZHVsZSIsImFzc2lnbiIsIm1vZHVsZSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./node_modules/next/dist/shared/lib/dynamic.js\n");
-
-/***/ }),
-
-/***/ "./pages/index.tsx":
-/*!*************************!*\
-  !*** ./pages/index.tsx ***!
-  \*************************/
+/***/ 805:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home),\n/* harmony export */   \"getStaticProps\": () => (/* binding */ getStaticProps)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dynamic */ \"./node_modules/next/dynamic.js\");\n/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _portfolio__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../portfolio */ \"./portfolio.ts\");\n/* harmony import */ var _components_SEO__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/SEO */ \"./components/SEO.tsx\");\n\n\nconst Navigation = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"components_Navigation_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../components/Navigation */ \"./components/Navigation.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../components/Navigation\"\n        ]\n    }\n});\nconst Greetings = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"containers_Greetings_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../containers/Greetings */ \"./containers/Greetings.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../containers/Greetings\"\n        ]\n    }\n});\nconst Skills = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"containers_Skills_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../containers/Skills */ \"./containers/Skills.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../containers/Skills\"\n        ]\n    }\n});\nconst Proficiency = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"containers_Proficiency_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../containers/Proficiency */ \"./containers/Proficiency.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../containers/Proficiency\"\n        ]\n    }\n});\nconst Education = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"containers_Education_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../containers/Education */ \"./containers/Education.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../containers/Education\"\n        ]\n    }\n});\nconst Experience = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"containers_Experience_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../containers/Experience */ \"./containers/Experience.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../containers/Experience\"\n        ]\n    }\n});\nconst Projects = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"containers_Projects_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../containers/Projects */ \"./containers/Projects.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../containers/Projects\"\n        ]\n    }\n});\nconst Feedbacks = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"containers_Feedbacks_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../containers/Feedbacks */ \"./containers/Feedbacks.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../containers/Feedbacks\"\n        ]\n    }\n});\nconst GithubProfileCard = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(()=>__webpack_require__.e(/*! import() */ \"components_GithubProfileCard_tsx\").then(__webpack_require__.bind(__webpack_require__, /*! ../components/GithubProfileCard */ \"./components/GithubProfileCard.tsx\")), {\n    loadableGenerated: {\n        modules: [\n            \"index.tsx -> \" + \"../components/GithubProfileCard\"\n        ]\n    }\n});\n\n\nfunction Home({ githubProfileData  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_SEO__WEBPACK_IMPORTED_MODULE_3__[\"default\"], {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\pages\\\\index.tsx\",\n                lineNumber: 18,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Navigation, {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\pages\\\\index.tsx\",\n                lineNumber: 19,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Greetings, {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\pages\\\\index.tsx\",\n                lineNumber: 20,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Skills, {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\pages\\\\index.tsx\",\n                lineNumber: 21,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Education, {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\pages\\\\index.tsx\",\n                lineNumber: 23,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Experience, {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\pages\\\\index.tsx\",\n                lineNumber: 24,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Projects, {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\pages\\\\index.tsx\",\n                lineNumber: 25,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Feedbacks, {}, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\pages\\\\index.tsx\",\n                lineNumber: 26,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(GithubProfileCard, {\n                ...githubProfileData\n            }, void 0, false, {\n                fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\pages\\\\index.tsx\",\n                lineNumber: 27,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Users\\\\sneha gupta\\\\Desktop\\\\desktop\\\\Y\\\\Web dev\\\\portfolio\\\\developer-portfolio-master\\\\pages\\\\index.tsx\",\n        lineNumber: 17,\n        columnNumber: 5\n    }, this);\n}\n// Home.prototype = {\n//   githubProfileData: PropTypes.object.isRequired,\n// };\nasync function getStaticProps() {\n    const githubProfileData = await fetch(`https://api.github.com/users/${_portfolio__WEBPACK_IMPORTED_MODULE_2__.openSource.githubUserName}`).then((res)=>res.json());\n    return {\n        props: {\n            githubProfileData\n        }\n    };\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQW1DO0FBQ25DLE1BQU1DLGFBQWFELG1EQUFPQSxDQUFDLElBQU0scUxBQWtDOzs7Ozs7O0FBQ25FLE1BQU1FLFlBQVlGLG1EQUFPQSxDQUFDLElBQU0sa0xBQWlDOzs7Ozs7O0FBQ2pFLE1BQU1HLFNBQVNILG1EQUFPQSxDQUFDLElBQU0seUtBQThCOzs7Ozs7O0FBQzNELE1BQU1JLGNBQWNKLG1EQUFPQSxDQUFDLElBQU0sd0xBQW1DOzs7Ozs7O0FBQ3JFLE1BQU1LLFlBQVlMLG1EQUFPQSxDQUFDLElBQU0sa0xBQWlDOzs7Ozs7O0FBQ2pFLE1BQU1NLGFBQWFOLG1EQUFPQSxDQUFDLElBQU0scUxBQWtDOzs7Ozs7O0FBQ25FLE1BQU1PLFdBQVdQLG1EQUFPQSxDQUFDLElBQU0sK0tBQWdDOzs7Ozs7O0FBQy9ELE1BQU1RLFlBQVlSLG1EQUFPQSxDQUFDLElBQU0sa0xBQWlDOzs7Ozs7O0FBQ2pFLE1BQU1TLG9CQUFvQlQsbURBQU9BLENBQUMsSUFBTSwwTUFBeUM7Ozs7Ozs7QUFDdkM7QUFDTjtBQUdyQixTQUFTWSxLQUFLLEVBQUVDLGtCQUFpQixFQUE4QixFQUFFO0lBQzlFLHFCQUNFLDhEQUFDQzs7MEJBQ0MsOERBQUNILHVEQUFHQTs7Ozs7MEJBQ0osOERBQUNWOzs7OzswQkFDRCw4REFBQ0M7Ozs7OzBCQUNELDhEQUFDQzs7Ozs7MEJBRUQsOERBQUNFOzs7OzswQkFDRCw4REFBQ0M7Ozs7OzBCQUNELDhEQUFDQzs7Ozs7MEJBQ0QsOERBQUNDOzs7OzswQkFDRCw4REFBQ0M7Z0JBQW1CLEdBQUdJLGlCQUFpQjs7Ozs7Ozs7Ozs7O0FBRzlDLENBQUM7QUFFRCxxQkFBcUI7QUFDckIsb0RBQW9EO0FBQ3BELEtBQUs7QUFFRSxlQUFlRSxpQkFBaUI7SUFDckMsTUFBTUYsb0JBQW9DLE1BQU1HLE1BQzlDLENBQUMsNkJBQTZCLEVBQUVOLGlFQUF5QixDQUFDLENBQUMsRUFDM0RRLElBQUksQ0FBQ0MsQ0FBQUEsTUFBT0EsSUFBSUMsSUFBSTtJQUV0QixPQUFPO1FBQ0xDLE9BQU87WUFBRVI7UUFBa0I7SUFDN0I7QUFDRixDQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZGV2ZWxvcGVyLXBvcnRmb2xpby8uL3BhZ2VzL2luZGV4LnRzeD8wN2ZmIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBkeW5hbWljIGZyb20gXCJuZXh0L2R5bmFtaWNcIjtcbmNvbnN0IE5hdmlnYXRpb24gPSBkeW5hbWljKCgpID0+IGltcG9ydChcIi4uL2NvbXBvbmVudHMvTmF2aWdhdGlvblwiKSk7XG5jb25zdCBHcmVldGluZ3MgPSBkeW5hbWljKCgpID0+IGltcG9ydChcIi4uL2NvbnRhaW5lcnMvR3JlZXRpbmdzXCIpKTtcbmNvbnN0IFNraWxscyA9IGR5bmFtaWMoKCkgPT4gaW1wb3J0KFwiLi4vY29udGFpbmVycy9Ta2lsbHNcIikpO1xuY29uc3QgUHJvZmljaWVuY3kgPSBkeW5hbWljKCgpID0+IGltcG9ydChcIi4uL2NvbnRhaW5lcnMvUHJvZmljaWVuY3lcIikpO1xuY29uc3QgRWR1Y2F0aW9uID0gZHluYW1pYygoKSA9PiBpbXBvcnQoXCIuLi9jb250YWluZXJzL0VkdWNhdGlvblwiKSk7XG5jb25zdCBFeHBlcmllbmNlID0gZHluYW1pYygoKSA9PiBpbXBvcnQoXCIuLi9jb250YWluZXJzL0V4cGVyaWVuY2VcIikpO1xuY29uc3QgUHJvamVjdHMgPSBkeW5hbWljKCgpID0+IGltcG9ydChcIi4uL2NvbnRhaW5lcnMvUHJvamVjdHNcIikpO1xuY29uc3QgRmVlZGJhY2tzID0gZHluYW1pYygoKSA9PiBpbXBvcnQoXCIuLi9jb250YWluZXJzL0ZlZWRiYWNrc1wiKSk7XG5jb25zdCBHaXRodWJQcm9maWxlQ2FyZCA9IGR5bmFtaWMoKCkgPT4gaW1wb3J0KFwiLi4vY29tcG9uZW50cy9HaXRodWJQcm9maWxlQ2FyZFwiKSk7XG5pbXBvcnQgeyBvcGVuU291cmNlIH0gZnJvbSBcIi4uL3BvcnRmb2xpb1wiO1xuaW1wb3J0IFNFTyBmcm9tIFwiLi4vY29tcG9uZW50cy9TRU9cIjtcbmltcG9ydCB7IEdpdGh1YlVzZXJUeXBlIH0gZnJvbSBcIi4uL3R5cGVzXCI7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhvbWUoeyBnaXRodWJQcm9maWxlRGF0YSB9OiB7IGdpdGh1YlByb2ZpbGVEYXRhOiBhbnkgfSkge1xuICByZXR1cm4gKFxuICAgIDxkaXY+XG4gICAgICA8U0VPIC8+XG4gICAgICA8TmF2aWdhdGlvbiAvPlxuICAgICAgPEdyZWV0aW5ncyAvPlxuICAgICAgPFNraWxscyAvPlxuICAgICAgey8qIDxQcm9maWNpZW5jeSAvPiAqL31cbiAgICAgIDxFZHVjYXRpb24gLz5cbiAgICAgIDxFeHBlcmllbmNlIC8+XG4gICAgICA8UHJvamVjdHMgLz5cbiAgICAgIDxGZWVkYmFja3MgLz5cbiAgICAgIDxHaXRodWJQcm9maWxlQ2FyZCB7Li4uZ2l0aHViUHJvZmlsZURhdGF9IC8+XG4gICAgPC9kaXY+XG4gICk7XG59XG5cbi8vIEhvbWUucHJvdG90eXBlID0ge1xuLy8gICBnaXRodWJQcm9maWxlRGF0YTogUHJvcFR5cGVzLm9iamVjdC5pc1JlcXVpcmVkLFxuLy8gfTtcblxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldFN0YXRpY1Byb3BzKCkge1xuICBjb25zdCBnaXRodWJQcm9maWxlRGF0YTogR2l0aHViVXNlclR5cGUgPSBhd2FpdCBmZXRjaChcbiAgICBgaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy8ke29wZW5Tb3VyY2UuZ2l0aHViVXNlck5hbWV9YFxuICApLnRoZW4ocmVzID0+IHJlcy5qc29uKCkpO1xuXG4gIHJldHVybiB7XG4gICAgcHJvcHM6IHsgZ2l0aHViUHJvZmlsZURhdGEgfSxcbiAgfTtcbn1cbiJdLCJuYW1lcyI6WyJkeW5hbWljIiwiTmF2aWdhdGlvbiIsIkdyZWV0aW5ncyIsIlNraWxscyIsIlByb2ZpY2llbmN5IiwiRWR1Y2F0aW9uIiwiRXhwZXJpZW5jZSIsIlByb2plY3RzIiwiRmVlZGJhY2tzIiwiR2l0aHViUHJvZmlsZUNhcmQiLCJvcGVuU291cmNlIiwiU0VPIiwiSG9tZSIsImdpdGh1YlByb2ZpbGVEYXRhIiwiZGl2IiwiZ2V0U3RhdGljUHJvcHMiLCJmZXRjaCIsImdpdGh1YlVzZXJOYW1lIiwidGhlbiIsInJlcyIsImpzb24iLCJwcm9wcyJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/index.tsx\n");
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "Bv": () => (/* binding */ SkillBars),
+  "E5": () => (/* binding */ educationInfo),
+  "b8": () => (/* binding */ experience),
+  "KK": () => (/* binding */ feedbacks),
+  "c0": () => (/* binding */ greetings),
+  "qL": () => (/* binding */ openSource),
+  "q": () => (/* binding */ projects),
+  "hD": () => (/* binding */ seoData),
+  "LO": () => (/* binding */ skillsSection),
+  "KT": () => (/* binding */ socialLinks)
+});
+
+// UNUSED EXPORTS: contact
+
+;// CONCATENATED MODULE: external "react-easy-emoji"
+const external_react_easy_emoji_namespaceObject = require("react-easy-emoji");
+var external_react_easy_emoji_default = /*#__PURE__*/__webpack_require__.n(external_react_easy_emoji_namespaceObject);
+;// CONCATENATED MODULE: ./portfolio.ts
+
+const greetings = {
+    name: "Yash Gupta",
+    title: "Hi all, I'm Yash",
+    description: "Passionate B.Tech student deeply committed to continuous learning and innovation. Proven track record in software development, with a keen eye for detail and a belief that learning is the cornerstone of personal and professional growth. Driven by an unwavering commitment to excellence, I thrive on continuous learning, believing it to be the key to personal and professional growth. Seeking opportunities to apply my skills in software development and make a positive impact.",
+    resumeLink: "https://drive.google.com/file/d/13Vo0RCSErdZIcO25U5uCq-5SZnBHeOZE/view?usp=drivesdk"
+};
+const openSource = {
+    githubUserName: "YashGupta718"
+};
+const contact = {};
+const socialLinks = {
+    email: "mailto:yashmittal709.ym@gmail.com",
+    linkedin: "https://www.linkedin.com/in/sdeYashGupta/",
+    github: "https://github.com/YashGupta718",
+    instagram: "https://www.instagram.com/yasxh.xd"
+};
+const skillsSection = {
+    title: "What I do",
+    subTitle: "CONSTANLY CODING, CONTINUOUSLY LEARNING: Crafting innovative solutions one line of code at a time.",
+    data: [
+        {
+            title: "Full Stack Development",
+            lottieAnimationFile: "/lottie/skills/fullstack.json",
+            skills: [
+                external_react_easy_emoji_default()("⚡ JavaScript , ReactJs , Redux , TypeScript , Postman , HTML , CSS , Java "),
+                external_react_easy_emoji_default()(" C , C++ , Sql , Spring Boot , Git , Github"),
+                external_react_easy_emoji_default()("...................................................................."),
+                external_react_easy_emoji_default()("In my role as a Software Developer at RS-Infy, I led the development and implementation of an Enterprise Resource Planning system (ERP) for leading e-commerce companies. This experience not only enhanced my frontend development skills but also provided valuable insights into backend architecture and database management."),
+                external_react_easy_emoji_default()("...................................................................."),
+                external_react_easy_emoji_default()("As a final-year B.Tech student, I bring a wealth of experience in frontend development and an unwavering commitment to expanding my expertise into backend development. "),
+                external_react_easy_emoji_default()("...................................................................."),
+                external_react_easy_emoji_default()("My journey in software development has been marked by a passion for learning and a dedication to mastering new technologies. I am currently exploring Spring Boot and other backend technologies to broaden my skill set and contribute to full-stack projects.")
+            ],
+            softwareSkills: [
+                {
+                    skillName: "JavaScript",
+                    iconifyTag: "logos:javascript"
+                },
+                {
+                    skillName: "Reactjs",
+                    iconifyTag: "vscode-icons:file-type-reactjs"
+                },
+                {
+                    skillName: "Redux",
+                    iconifyTag: "logos:redux"
+                },
+                {
+                    skillName: "TypeScript",
+                    iconifyTag: "devicon:typescript"
+                },
+                {
+                    skillName: "Postman",
+                    iconifyTag: "vscode-icons:file-type-postman"
+                },
+                {
+                    skillName: "HTML",
+                    iconifyTag: "logos:html-5"
+                },
+                {
+                    skillName: "CSS",
+                    iconifyTag: "logos:css-3"
+                },
+                {
+                    skillName: "Java",
+                    iconifyTag: "devicon:java-wordmark"
+                },
+                {
+                    skillName: "C",
+                    iconifyTag: "mdi:language-c"
+                },
+                {
+                    skillName: "Cpp",
+                    iconifyTag: "mdi:language-cpp"
+                },
+                {
+                    skillName: "SQL",
+                    iconifyTag: "logos:mysql"
+                },
+                {
+                    skillName: "Spring Boot",
+                    iconifyTag: "simple-icons:springboot",
+                    css: "{color: #6aad3d}"
+                },
+                {
+                    skillName: "Git",
+                    iconifyTag: "devicon:git"
+                },
+                {
+                    skillName: "Github",
+                    iconifyTag: "devicon:github"
+                }
+            ]
+        }
+    ]
+};
+const SkillBars = [
+    {
+        Stack: "Frontend/Design",
+        progressPercentage: "85"
+    },
+    {
+        Stack: "Backend",
+        progressPercentage: "90"
+    },
+    {
+        Stack: "Programming",
+        progressPercentage: "95"
+    }
+];
+const educationInfo = [
+    {
+        schoolName: "Guru Gobind Singh Indraprastha University",
+        subHeader: "Bachelor of Technology",
+        duration: "July 2020 - June 2024",
+        desc: "Electronics and Communication",
+        grade: "82.86%",
+        descBullets: [
+            "Teamwork",
+            "Team Leadership",
+            "Team Management",
+            "Project Management",
+            "Problem Solving",
+            "Social Influence"
+        ]
+    },
+    {
+        schoolName: "St. Xavier's School",
+        subHeader: "Senior secondary (XII)",
+        duration: "April 2019 - March 2020",
+        desc: "Science with specialization in Computers",
+        grade: "89.40%",
+        descBullets: [
+            "Social Intelligence",
+            "PSD to HTML",
+            "C, C++",
+            "Collaborative Problem Solving",
+            "SQL",
+            "OOPs"
+        ]
+    },
+    {
+        schoolName: "St. Xavier's School",
+        subHeader: "Secondary (X)",
+        duration: "April 2017 - March 2018",
+        desc: "",
+        grade: "82.40%",
+        descBullets: [
+            "HTML",
+            "CSS",
+            "Communication",
+            "Microsoft Excell",
+            "Microsoft PowerPoint",
+            "Microsoft Word"
+        ]
+    }
+];
+const experience = [
+    {
+        role: "Software Developer",
+        company: "Rs Infy",
+        companyLogo: "/img/icons/common/rs-infy.png",
+        date: "June 2022 - April 2023",
+        // desc: "I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.",
+        desc: "ReactJs, React-Redux, TypeScript, JavaScript, API Integration, Postman, Git, JWT",
+        descBullets: [
+            "Successfully developed and implemented a highly efficient Enterprise Resource Planning System ERP for leading e-commerce companies, resulting a increase in revenue and decreasing manual errors.",
+            "Developed and implemented user-friendly interfaces for web applications using ReactJS, resulting in a 20% improvement in overall user experience. And integrated various APIs with system.",
+            "Collaborated with cross-functional teams to gather user requirements and feedback, resulting in the successful implementation of new features and enhancements that improved efficiency."
+        ]
+    },
+    {
+        role: "Tech Team Lead",
+        company: "CodeChef ADGIPS Chapter",
+        companyLogo: "/img/icons/common/gfgLogo.jpg",
+        date: "December 2020 - Jan 2023",
+        desc: "DSA, Event Management, Team Management, Team Building, SQL, Problem Setter, Netlify, Front-End Design",
+        descBullets: [
+            "Designed and uploaded problems for DSA Carnival at CodeChef and successfully organized Hackathons like Live the code attracting participation from hundreds of students and securing sponsorships.",
+            "Conduct monthly contests like Campus Code focused on Competitive Programming to foster peer development"
+        ]
+    },
+    {
+        role: "Campus Ambassador",
+        company: "Coding Blocks",
+        companyLogo: "/img/icons/common/cbLogo.jpg",
+        date: "Feb 2021 - Jul 2022",
+        desc: "Marketing, DSA",
+        descBullets: [
+            "Conduct programming events & workshops to engage and inspire students.",
+            "Create a conducive coding environment and encourage students to explore development opportunities during their college years."
+        ]
+    },
+    {
+        role: "Campus Ambassador",
+        company: "Infosys",
+        companyLogo: "/img/icons/common/infosysLogo.jpg",
+        date: "July 2021 - Apr 2022",
+        desc: "Information Technology, Competitive Programming, JavaScript",
+        descBullets: [
+            "Conduct programming events & workshops to engage and inspire students.",
+            "Create a conducive coding environment and encourage students to explore development opportunities during their college years."
+        ]
+    }
+];
+const projects = [
+    {
+        name: "IMO | International Math Olympiad",
+        role: "Freelance Project",
+        projectLogo: "/img/icons/common/imoLogo.jpg",
+        github: "https://github.com/RS-Infy/imo-student",
+        link: "https://imo-india.org/",
+        desc: "API Integration \xb7 API Testing \xb7 JSON Web Token (JWT) \xb7 React.js \xb7 Postman \xb7 TypeScript \xb7 Continuous Integration and Continuous Delivery (CI/CD)",
+        descBullets: [
+            "Developed & implemented interactive Reactjs applications for the Maths Olympiad, enhancing user engagement and improving problem-solving experiences and Integrated various APIs.",
+            "Conducted thorough testing and debugging of developed applications to ensure seamless functionality and optimal performance, leading to a significant reduction in user-reported issues.",
+            "Collaborated with cross-functional teams to design and develop multiple user-friendly portals, launch new portals, meeting strict deadlines and ensuring a seamless user experience."
+        ]
+    },
+    {
+        name: "Urban Karma | E-commerce Website",
+        role: "Freelance Project",
+        projectLogo: "/img/icons/common/ukarmaLogo.png",
+        github: "https://github.com/RS-Infy/urban-fashion",
+        link: "https://urbankarmagb.co.uk/",
+        desc: " API Integration \xb7 API Testing \xb7 React.js \xb7 Continuous Integration and Continuous Delivery (CI/CD)",
+        descBullets: [
+            "Successfully developed and launched a highly responsive and visually appealing e-commerce website for Urban Karma, a prominent UK-based fashion company.",
+            "Leveraged React.js framework to build a dynamic and interactive frontend, creating an engaging user interface and enhancing the overall user experience.",
+            "Implemented effective SEO strategies, for improved website visibility and organic traffic growth for Urban Karma. Tested APIs and further integrated APIs with web app."
+        ]
+    },
+    {
+        name: "Black Jack Game",
+        role: "",
+        projectLogo: "/img/icons/common/bjgameLogo.jpg",
+        github: "https://github.com/YashGupta718/BlackJack-Game",
+        link: "https://yashgupta718.github.io/BlackJack-Game/",
+        desc: "HTML \xb7 CSS \xb7 JavaScript",
+        descBullets: [
+            "Developed a JavaScript-based Blackjack game with a mix of strategy and luck.",
+            " Demonstrated proficiency in JavaScript and CSS through this project. Instructions on how to play are available in my GitHub repository."
+        ]
+    },
+    {
+        name: "developer-portfolio",
+        desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
+        github: "https://github.com/YashGupta718/portfolio",
+        link: "https://developer-portfolio-1hanzla100.vercel.app/",
+        descBullets: [
+            "Developed & implemented interactive Reactjs applications for the Maths Olympiad, enhancing user engagement and improving problem-solving experiences and Integrated various APIs."
+        ]
+    },
+    {
+        name: "Kankyo Sensie",
+        role: "SIH Hackathon",
+        projectLogo: "/img/icons/common/kankyoLogo.jpg",
+        github: "https://github.com/YashGupta718/Senshi",
+        link: "https://kankyo-senshi.netlify.app/",
+        desc: "HTML \xb7 CSS \xb7 JavaScript \xb7 Teamwork"
+    },
+    {
+        name: "Maxwell",
+        role: "",
+        projectLogo: "/img/icons/common/maxwellLogo.jpg",
+        github: "https://github.com/YashGupta718/",
+        link: "https://women-health.netlify.app/",
+        desc: "HTML \xb7 CSS \xb7 JavaScript \xb7 TeamCoordination \xb7 Bootstrap"
+    }
+];
+const feedbacks = [
+    {
+        name: "Shagun",
+        mail: "mailto:shagun.saboo@rsinfy.com",
+        role: "Co-founder at Rs-Infy",
+        feedback: "You were a wonderful addition to our team Yash. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. He has contributed to the growth of our organization and continues to do so."
+    },
+    {
+        name: "Rishab Jain",
+        role: "Project head at Clapingo",
+        feedback: "Yash has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Yash is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Yash for any SD roles, React.js, and I wish him all the best in his future endeavors."
+    }
+];
+// See object prototype on /types/section.ts page
+const seoData = {
+    title: "Yash Gupta",
+    description: greetings.description,
+    author: "Hanzla Tauqeer",
+    image: "https://avatars.githubusercontent.com/u/59178380?v=4",
+    // url: "https://developer-portfolio-1hanzla100.vercel.app",
+    keywords: [
+        "Yash",
+        "Yash Gupta",
+        "@sdeYashGupta",
+        "YashGupta718",
+        "Yash Portfolio",
+        "Web Developer",
+        "ReactJs",
+        "JavaScript",
+        "TypeScript",
+        "HTML",
+        "CSS",
+        "API Integration",
+        "Software Developer"
+    ]
+};
+
 
 /***/ }),
 
-/***/ "./portfolio.ts":
-/*!**********************!*\
-  !*** ./portfolio.ts ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"SkillBars\": () => (/* binding */ SkillBars),\n/* harmony export */   \"contact\": () => (/* binding */ contact),\n/* harmony export */   \"educationInfo\": () => (/* binding */ educationInfo),\n/* harmony export */   \"experience\": () => (/* binding */ experience),\n/* harmony export */   \"feedbacks\": () => (/* binding */ feedbacks),\n/* harmony export */   \"greetings\": () => (/* binding */ greetings),\n/* harmony export */   \"openSource\": () => (/* binding */ openSource),\n/* harmony export */   \"projects\": () => (/* binding */ projects),\n/* harmony export */   \"seoData\": () => (/* binding */ seoData),\n/* harmony export */   \"skillsSection\": () => (/* binding */ skillsSection),\n/* harmony export */   \"socialLinks\": () => (/* binding */ socialLinks)\n/* harmony export */ });\n/* harmony import */ var react_easy_emoji__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-easy-emoji */ \"react-easy-emoji\");\n/* harmony import */ var react_easy_emoji__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_easy_emoji__WEBPACK_IMPORTED_MODULE_0__);\n\nconst greetings = {\n    name: \"Yash Gupta\",\n    title: \"Hi all, I'm Yash\",\n    description: \"Passionate B.Tech student deeply committed to continuous learning and innovation. Proven track record in software development, with a keen eye for detail and a belief that learning is the cornerstone of personal and professional growth. Driven by an unwavering commitment to excellence, I thrive on continuous learning, believing it to be the key to personal and professional growth. Seeking opportunities to apply my skills in software development and make a positive impact.\",\n    resumeLink: \"https://drive.google.com/file/d/13Vo0RCSErdZIcO25U5uCq-5SZnBHeOZE/view?usp=drivesdk\"\n};\nconst openSource = {\n    githubUserName: \"YashGupta718\"\n};\nconst contact = {};\nconst socialLinks = {\n    email: \"mailto:yashmittal709.ym@gmail.com\",\n    linkedin: \"https://www.linkedin.com/in/sdeYashGupta/\",\n    github: \"https://github.com/YashGupta718\",\n    instagram: \"https://www.instagram.com/yasxh.xd\"\n};\nconst skillsSection = {\n    title: \"What I do\",\n    subTitle: \"CONSTANLY CODING, CONTINUOUSLY LEARNING: Crafting innovative solutions one line of code at a time.\",\n    data: [\n        {\n            title: \"Full Stack Development\",\n            lottieAnimationFile: \"/lottie/skills/fullstack.json\",\n            skills: [\n                react_easy_emoji__WEBPACK_IMPORTED_MODULE_0___default()(\"⚡ JavaScript , ReactJs , Redux , TypeScript , Postman , HTML , CSS , Java \"),\n                react_easy_emoji__WEBPACK_IMPORTED_MODULE_0___default()(\" C , C++ , Sql , Spring Boot , Git , Github\"),\n                react_easy_emoji__WEBPACK_IMPORTED_MODULE_0___default()(\"....................................................................\"),\n                react_easy_emoji__WEBPACK_IMPORTED_MODULE_0___default()(\"In my role as a Software Developer at RS-Infy, I led the development and implementation of an Enterprise Resource Planning system (ERP) for leading e-commerce companies. This experience not only enhanced my frontend development skills but also provided valuable insights into backend architecture and database management.\"),\n                react_easy_emoji__WEBPACK_IMPORTED_MODULE_0___default()(\"....................................................................\"),\n                react_easy_emoji__WEBPACK_IMPORTED_MODULE_0___default()(\"As a final-year B.Tech student, I bring a wealth of experience in frontend development and an unwavering commitment to expanding my expertise into backend development. \"),\n                react_easy_emoji__WEBPACK_IMPORTED_MODULE_0___default()(\"....................................................................\"),\n                react_easy_emoji__WEBPACK_IMPORTED_MODULE_0___default()(\"My journey in software development has been marked by a passion for learning and a dedication to mastering new technologies. I am currently exploring Spring Boot and other backend technologies to broaden my skill set and contribute to full-stack projects.\")\n            ],\n            softwareSkills: [\n                {\n                    skillName: \"JavaScript\",\n                    iconifyTag: \"logos:javascript\"\n                },\n                {\n                    skillName: \"Reactjs\",\n                    iconifyTag: \"vscode-icons:file-type-reactjs\"\n                },\n                {\n                    skillName: \"Redux\",\n                    iconifyTag: \"logos:redux\"\n                },\n                {\n                    skillName: \"TypeScript\",\n                    iconifyTag: \"devicon:typescript\"\n                },\n                {\n                    skillName: \"Postman\",\n                    iconifyTag: \"vscode-icons:file-type-postman\"\n                },\n                {\n                    skillName: \"HTML\",\n                    iconifyTag: \"logos:html-5\"\n                },\n                {\n                    skillName: \"CSS\",\n                    iconifyTag: \"logos:css-3\"\n                },\n                {\n                    skillName: \"Java\",\n                    iconifyTag: \"devicon:java-wordmark\"\n                },\n                {\n                    skillName: \"C\",\n                    iconifyTag: \"mdi:language-c\"\n                },\n                {\n                    skillName: \"Cpp\",\n                    iconifyTag: \"mdi:language-cpp\"\n                },\n                {\n                    skillName: \"SQL\",\n                    iconifyTag: \"logos:mysql\"\n                },\n                {\n                    skillName: \"Spring Boot\",\n                    iconifyTag: \"simple-icons:springboot\",\n                    css: \"{color: #6aad3d}\"\n                },\n                {\n                    skillName: \"Git\",\n                    iconifyTag: \"devicon:git\"\n                },\n                {\n                    skillName: \"Github\",\n                    iconifyTag: \"devicon:github\"\n                }\n            ]\n        }\n    ]\n};\nconst SkillBars = [\n    {\n        Stack: \"Frontend/Design\",\n        progressPercentage: \"85\"\n    },\n    {\n        Stack: \"Backend\",\n        progressPercentage: \"90\"\n    },\n    {\n        Stack: \"Programming\",\n        progressPercentage: \"95\"\n    }\n];\nconst educationInfo = [\n    {\n        schoolName: \"Guru Gobind Singh Indraprastha University\",\n        subHeader: \"Bachelor of Technology\",\n        duration: \"July 2020 - June 2024\",\n        desc: \"Electronics and Communication\",\n        grade: \"82.86%\",\n        descBullets: [\n            \"Teamwork\",\n            \"Team Leadership\",\n            \"Team Management\",\n            \"Project Management\",\n            \"Problem Solving\",\n            \"Social Influence\"\n        ]\n    },\n    {\n        schoolName: \"St. Xavier's School\",\n        subHeader: \"Senior secondary (XII)\",\n        duration: \"April 2019 - March 2020\",\n        desc: \"Science with specialization in Computers\",\n        grade: \"89.40%\",\n        descBullets: [\n            \"Social Intelligence\",\n            \"PSD to HTML\",\n            \"C, C++\",\n            \"Collaborative Problem Solving\",\n            \"SQL\",\n            \"OOPs\"\n        ]\n    },\n    {\n        schoolName: \"St. Xavier's School\",\n        subHeader: \"Secondary (X)\",\n        duration: \"April 2017 - March 2018\",\n        desc: \"\",\n        grade: \"82.40%\",\n        descBullets: [\n            \"HTML\",\n            \"CSS\",\n            \"Communication\",\n            \"Microsoft Excell\",\n            \"Microsoft PowerPoint\",\n            \"Microsoft Word\"\n        ]\n    }\n];\nconst experience = [\n    {\n        role: \"Software Developer\",\n        company: \"Rs Infy\",\n        companyLogo: \"/img/icons/common/rs-infy.png\",\n        date: \"June 2022 - April 2023\",\n        // desc: \"I crafted backends for diverse web apps, APIs, and WebSockets in e-commerce, podcasts, and property management. Managed server upkeep, deployments on Linux, Heroku, and AWS S3. Implemented PyTest for automated unit and integration testing, slashing 4 hours of manual testing each sprint, fortifying a dependable and flawless code foundation.\",\n        desc: \"ReactJs, React-Redux, TypeScript, JavaScript, API Integration, Postman, Git, JWT\",\n        descBullets: [\n            \"Successfully developed and implemented a highly efficient Enterprise Resource Planning System ERP for leading e-commerce companies, resulting a increase in revenue and decreasing manual errors.\",\n            \"Developed and implemented user-friendly interfaces for web applications using ReactJS, resulting in a 20% improvement in overall user experience. And integrated various APIs with system.\",\n            \"Collaborated with cross-functional teams to gather user requirements and feedback, resulting in the successful implementation of new features and enhancements that improved efficiency.\"\n        ]\n    },\n    {\n        role: \"Tech Team Lead\",\n        company: \"CodeChef ADGIPS Chapter\",\n        companyLogo: \"/img/icons/common/gfgLogo.jpg\",\n        date: \"December 2020 - Jan 2023\",\n        desc: \"DSA, Event Management, Team Management, Team Building, SQL, Problem Setter, Netlify, Front-End Design\",\n        descBullets: [\n            \"Designed and uploaded problems for DSA Carnival at CodeChef and successfully organized Hackathons like Live the code attracting participation from hundreds of students and securing sponsorships.\",\n            \"Conduct monthly contests like Campus Code focused on Competitive Programming to foster peer development\"\n        ]\n    },\n    {\n        role: \"Campus Ambassador\",\n        company: \"Coding Blocks\",\n        companyLogo: \"/img/icons/common/cbLogo.jpg\",\n        date: \"Feb 2021 - Jul 2022\",\n        desc: \"Marketing, DSA\",\n        descBullets: [\n            \"Conduct programming events & workshops to engage and inspire students.\",\n            \"Create a conducive coding environment and encourage students to explore development opportunities during their college years.\"\n        ]\n    },\n    {\n        role: \"Campus Ambassador\",\n        company: \"Infosys\",\n        companyLogo: \"/img/icons/common/infosysLogo.jpg\",\n        date: \"July 2021 - Apr 2022\",\n        desc: \"Information Technology, Competitive Programming, JavaScript\",\n        descBullets: [\n            \"Conduct programming events & workshops to engage and inspire students.\",\n            \"Create a conducive coding environment and encourage students to explore development opportunities during their college years.\"\n        ]\n    }\n];\nconst projects = [\n    {\n        name: \"IMO | International Math Olympiad\",\n        role: \"Freelance Project\",\n        projectLogo: \"/img/icons/common/imoLogo.jpg\",\n        github: \"https://github.com/RS-Infy/imo-student\",\n        link: \"https://imo-india.org/\",\n        desc: \"API Integration \\xb7 API Testing \\xb7 JSON Web Token (JWT) \\xb7 React.js \\xb7 Postman \\xb7 TypeScript \\xb7 Continuous Integration and Continuous Delivery (CI/CD)\",\n        descBullets: [\n            \"Developed & implemented interactive Reactjs applications for the Maths Olympiad, enhancing user engagement and improving problem-solving experiences and Integrated various APIs.\",\n            \"Conducted thorough testing and debugging of developed applications to ensure seamless functionality and optimal performance, leading to a significant reduction in user-reported issues.\",\n            \"Collaborated with cross-functional teams to design and develop multiple user-friendly portals, launch new portals, meeting strict deadlines and ensuring a seamless user experience.\"\n        ]\n    },\n    {\n        name: \"Urban Karma | E-commerce Website\",\n        role: \"Freelance Project\",\n        projectLogo: \"/img/icons/common/ukarmaLogo.png\",\n        github: \"https://github.com/RS-Infy/urban-fashion\",\n        link: \"https://urbankarmagb.co.uk/\",\n        desc: \" API Integration \\xb7 API Testing \\xb7 React.js \\xb7 Continuous Integration and Continuous Delivery (CI/CD)\",\n        descBullets: [\n            \"Successfully developed and launched a highly responsive and visually appealing e-commerce website for Urban Karma, a prominent UK-based fashion company.\",\n            \"Leveraged React.js framework to build a dynamic and interactive frontend, creating an engaging user interface and enhancing the overall user experience.\",\n            \"Implemented effective SEO strategies, for improved website visibility and organic traffic growth for Urban Karma. Tested APIs and further integrated APIs with web app.\"\n        ]\n    },\n    {\n        name: \"Black Jack Game\",\n        role: \"\",\n        projectLogo: \"/img/icons/common/bjgameLogo.jpg\",\n        github: \"https://github.com/YashGupta718/BlackJack-Game\",\n        link: \"https://yashgupta718.github.io/BlackJack-Game/\",\n        desc: \"HTML \\xb7 CSS \\xb7 JavaScript\",\n        descBullets: [\n            \"Developed a JavaScript-based Blackjack game with a mix of strategy and luck.\",\n            \" Demonstrated proficiency in JavaScript and CSS through this project. Instructions on how to play are available in my GitHub repository.\"\n        ]\n    },\n    {\n        name: \"developer-portfolio\",\n        desc: \"Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.\",\n        github: \"https://github.com/YashGupta718/portfolio\",\n        link: \"https://developer-portfolio-1hanzla100.vercel.app/\",\n        descBullets: [\n            \"Developed & implemented interactive Reactjs applications for the Maths Olympiad, enhancing user engagement and improving problem-solving experiences and Integrated various APIs.\"\n        ]\n    },\n    {\n        name: \"Kankyo Sensie\",\n        role: \"SIH Hackathon\",\n        projectLogo: \"/img/icons/common/kankyoLogo.jpg\",\n        github: \"https://github.com/YashGupta718/Senshi\",\n        link: \"https://kankyo-senshi.netlify.app/\",\n        desc: \"HTML \\xb7 CSS \\xb7 JavaScript \\xb7 Teamwork\"\n    },\n    {\n        name: \"Maxwell\",\n        role: \"\",\n        projectLogo: \"/img/icons/common/maxwellLogo.jpg\",\n        github: \"https://github.com/YashGupta718/\",\n        link: \"https://women-health.netlify.app/\",\n        desc: \"HTML \\xb7 CSS \\xb7 JavaScript \\xb7 TeamCoordination \\xb7 Bootstrap\"\n    }\n];\nconst feedbacks = [\n    {\n        name: \"Shagun\",\n        mail: \"mailto:shagun.saboo@rsinfy.com\",\n        role: \"Co-founder at Rs-Infy\",\n        feedback: \"You were a wonderful addition to our team Yash. I'm quite impressed with your abilities and professional practices. You approach problems from a unique perspective and always ask the right question. He has contributed to the growth of our organization and continues to do so.\"\n    },\n    {\n        name: \"Rishab Jain\",\n        role: \"Project head at Clapingo\",\n        feedback: \"Yash has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Yash is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Yash for any SD roles, React.js, and I wish him all the best in his future endeavors.\"\n    }\n];\n// See object prototype on /types/section.ts page\nconst seoData = {\n    title: \"Yash Gupta\",\n    description: greetings.description,\n    author: \"Hanzla Tauqeer\",\n    image: \"https://avatars.githubusercontent.com/u/59178380?v=4\",\n    // url: \"https://developer-portfolio-1hanzla100.vercel.app\",\n    keywords: [\n        \"Yash\",\n        \"Yash Gupta\",\n        \"@sdeYashGupta\",\n        \"YashGupta718\",\n        \"Yash Portfolio\",\n        \"Web Developer\",\n        \"ReactJs\",\n        \"JavaScript\",\n        \"TypeScript\",\n        \"HTML\",\n        \"CSS\",\n        \"API Integration\",\n        \"Software Developer\"\n    ]\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wb3J0Zm9saW8udHMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7OztBQUFxQztBQWE5QixNQUFNQyxZQUEyQjtJQUN0Q0MsTUFBTTtJQUNOQyxPQUFPO0lBQ1BDLGFBQ0U7SUFDRkMsWUFBWTtBQUNkLEVBQUU7QUFFSyxNQUFNQyxhQUFhO0lBQ3hCQyxnQkFBZ0I7QUFDbEIsRUFBRTtBQUVLLE1BQU1DLFVBQVUsQ0FBQyxFQUFFO0FBRW5CLE1BQU1DLGNBQStCO0lBQzFDQyxPQUFPO0lBQ1BDLFVBQVU7SUFDVkMsUUFBUTtJQUNSQyxXQUFXO0FBR2IsRUFBRTtBQUVLLE1BQU1DLGdCQUFtQztJQUM5Q1gsT0FBTztJQUNQWSxVQUFVO0lBQ1ZDLE1BQU07UUFDSjtZQUNFYixPQUFPO1lBQ1BjLHFCQUFxQjtZQUNyQkMsUUFBUTtnQkFDTmxCLHVEQUFLQSxDQUFDO2dCQUNOQSx1REFBS0EsQ0FBQztnQkFDTkEsdURBQUtBLENBQUM7Z0JBQ05BLHVEQUFLQSxDQUNIO2dCQUVGQSx1REFBS0EsQ0FBQztnQkFDTkEsdURBQUtBLENBQ0g7Z0JBRUZBLHVEQUFLQSxDQUFDO2dCQUNOQSx1REFBS0EsQ0FDSDthQUVIO1lBQ0RtQixnQkFBZ0I7Z0JBQ2Q7b0JBQ0VDLFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7b0JBQ1pDLEtBQUs7Z0JBQ1A7Z0JBQ0E7b0JBQ0VGLFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7Z0JBQ0E7b0JBQ0VELFdBQVc7b0JBQ1hDLFlBQVk7Z0JBQ2Q7YUFDRDtRQUNIO0tBQ0Q7QUFDSCxFQUFFO0FBRUssTUFBTUUsWUFBNkI7SUFDeEM7UUFDRUMsT0FBTztRQUNQQyxvQkFBb0I7SUFDdEI7SUFDQTtRQUNFRCxPQUFPO1FBQ1BDLG9CQUFvQjtJQUN0QjtJQUNBO1FBQ0VELE9BQU87UUFDUEMsb0JBQW9CO0lBQ3RCO0NBQ0QsQ0FBQztBQUVLLE1BQU1DLGdCQUFpQztJQUM1QztRQUNFQyxZQUFZO1FBQ1pDLFdBQVc7UUFDWEMsVUFBVTtRQUNWQyxNQUFNO1FBQ05DLE9BQU87UUFDUEMsYUFBYTtZQUNYO1lBQ0E7WUFDQTtZQUNBO1lBQ0E7WUFDQTtTQUNEO0lBQ0g7SUFDQTtRQUNFTCxZQUFZO1FBQ1pDLFdBQVc7UUFDWEMsVUFBVTtRQUNWQyxNQUFNO1FBQ05DLE9BQU87UUFDUEMsYUFBYTtZQUFDO1lBQXVCO1lBQWU7WUFBVTtZQUFpQztZQUFPO1NBQU87SUFDL0c7SUFDQTtRQUNFTCxZQUFZO1FBQ1pDLFdBQVc7UUFDWEMsVUFBVTtRQUNWQyxNQUFNO1FBQ05DLE9BQU87UUFDUEMsYUFBYTtZQUFDO1lBQVE7WUFBTztZQUFpQjtZQUFvQjtZQUF3QjtTQUFpQjtJQUM3RztDQUNELENBQUM7QUFFSyxNQUFNQyxhQUErQjtJQUMxQztRQUNFQyxNQUFNO1FBQ05DLFNBQVM7UUFDVEMsYUFBYTtRQUNiQyxNQUFNO1FBQ04saVdBQWlXO1FBQ2pXUCxNQUFNO1FBQ05FLGFBQWE7WUFDWDtZQUNBO1lBQ0E7U0FDRDtJQUNIO0lBQ0E7UUFDRUUsTUFBTTtRQUNOQyxTQUFTO1FBQ1RDLGFBQWE7UUFDYkMsTUFBTTtRQUNOUCxNQUFNO1FBQ05FLGFBQWE7WUFDWDtZQUNBO1NBQ0Q7SUFDSDtJQUNBO1FBQ0VFLE1BQU07UUFDTkMsU0FBUztRQUNUQyxhQUFhO1FBQ2JDLE1BQU07UUFDTlAsTUFBTTtRQUNORSxhQUFhO1lBQ1g7WUFDQTtTQUNEO0lBQ0g7SUFDQTtRQUNFRSxNQUFNO1FBQ05DLFNBQVM7UUFDVEMsYUFBYTtRQUNiQyxNQUFNO1FBQ05QLE1BQU07UUFDTkUsYUFBYTtZQUNYO1lBQ0E7U0FDRDtJQUNIO0NBQ0QsQ0FBQztBQUVLLE1BQU1NLFdBQTBCO0lBQ3JDO1FBQ0VwQyxNQUFNO1FBQ05nQyxNQUFNO1FBQ05LLGFBQWE7UUFDYjNCLFFBQVE7UUFDUjRCLE1BQU07UUFDTlYsTUFBTTtRQUNORSxhQUFhO1lBQ1g7WUFDQTtZQUNBO1NBQ0Q7SUFDSDtJQUNBO1FBQ0U5QixNQUFNO1FBQ05nQyxNQUFNO1FBQ05LLGFBQWE7UUFDYjNCLFFBQVE7UUFDUjRCLE1BQU07UUFDTlYsTUFBTTtRQUNORSxhQUFhO1lBQ1g7WUFDQTtZQUNBO1NBQ0Q7SUFDSDtJQUNBO1FBQ0U5QixNQUFNO1FBQ05nQyxNQUFNO1FBQ05LLGFBQWE7UUFDYjNCLFFBQVE7UUFDUjRCLE1BQU07UUFDTlYsTUFBTTtRQUNORSxhQUFhO1lBQ1g7WUFDQTtTQUVEO0lBQ0g7SUFDQTtRQUNFOUIsTUFBTTtRQUNONEIsTUFBTTtRQUNObEIsUUFBUTtRQUNSNEIsTUFBTTtRQUNOUixhQUFhO1lBQ1g7U0FDRDtJQUNIO0lBQ0E7UUFDRTlCLE1BQU07UUFDTmdDLE1BQU07UUFDTkssYUFBYTtRQUNiM0IsUUFBUTtRQUNSNEIsTUFBTTtRQUNOVixNQUFNO0lBTVI7SUFDQTtRQUNFNUIsTUFBTTtRQUNOZ0MsTUFBTTtRQUNOSyxhQUFhO1FBQ2IzQixRQUFRO1FBQ1I0QixNQUFNO1FBQ05WLE1BQU07SUFNUjtDQUNELENBQUM7QUFFSyxNQUFNVyxZQUE0QjtJQUN2QztRQUNFdkMsTUFBTTtRQUNOd0MsTUFBTTtRQUNOUixNQUFNO1FBQ05TLFVBQ0U7SUFDSjtJQUNBO1FBQ0V6QyxNQUFNO1FBQ05nQyxNQUFNO1FBQ05TLFVBQ0U7SUFDSjtDQU9ELENBQUM7QUFFRixpREFBaUQ7QUFDMUMsTUFBTUMsVUFBdUI7SUFDbEN6QyxPQUFPO0lBQ1BDLGFBQWFILFVBQVVHLFdBQVc7SUFDbEN5QyxRQUFRO0lBQ1JDLE9BQU87SUFDUCw0REFBNEQ7SUFDNURDLFVBQVU7UUFDUjtRQUNBO1FBQ0E7UUFDQTtRQUNBO1FBQ0E7UUFDQTtRQUNBO1FBQ0E7UUFDQTtRQUNBO1FBQ0E7UUFDQTtLQUNEO0FBQ0gsRUFBRSIsInNvdXJjZXMiOlsid2VicGFjazovL2RldmVsb3Blci1wb3J0Zm9saW8vLi9wb3J0Zm9saW8udHM/MWQzNCJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZW1vamkgZnJvbSBcInJlYWN0LWVhc3ktZW1vamlcIjtcbmltcG9ydCB7XG4gIEVkdWNhdGlvblR5cGUsXG4gIEV4cGVyaWVuY2VUeXBlLFxuICBGZWVkYmFja1R5cGUsXG4gIFByb2plY3RUeXBlLFxuICBTa2lsbHNTZWN0aW9uVHlwZSxcbiAgU2tpbGxCYXJzVHlwZSxcbiAgU0VPRGF0YVR5cGUsXG4gIFNvY2lhbExpbmtzVHlwZSxcbiAgR3JlZXRpbmdzVHlwZSxcbn0gZnJvbSBcIi4vdHlwZXMvc2VjdGlvbnNcIjtcblxuZXhwb3J0IGNvbnN0IGdyZWV0aW5nczogR3JlZXRpbmdzVHlwZSA9IHtcbiAgbmFtZTogXCJZYXNoIEd1cHRhXCIsXG4gIHRpdGxlOiBcIkhpIGFsbCwgSSdtIFlhc2hcIixcbiAgZGVzY3JpcHRpb246XG4gICAgXCJQYXNzaW9uYXRlIEIuVGVjaCBzdHVkZW50IGRlZXBseSBjb21taXR0ZWQgdG8gY29udGludW91cyBsZWFybmluZyBhbmQgaW5ub3ZhdGlvbi4gUHJvdmVuIHRyYWNrIHJlY29yZCBpbiBzb2Z0d2FyZSBkZXZlbG9wbWVudCwgd2l0aCBhIGtlZW4gZXllIGZvciBkZXRhaWwgYW5kIGEgYmVsaWVmIHRoYXQgbGVhcm5pbmcgaXMgdGhlIGNvcm5lcnN0b25lIG9mIHBlcnNvbmFsIGFuZCBwcm9mZXNzaW9uYWwgZ3Jvd3RoLiBEcml2ZW4gYnkgYW4gdW53YXZlcmluZyBjb21taXRtZW50IHRvIGV4Y2VsbGVuY2UsIEkgdGhyaXZlIG9uIGNvbnRpbnVvdXMgbGVhcm5pbmcsIGJlbGlldmluZyBpdCB0byBiZSB0aGUga2V5IHRvIHBlcnNvbmFsIGFuZCBwcm9mZXNzaW9uYWwgZ3Jvd3RoLiBTZWVraW5nIG9wcG9ydHVuaXRpZXMgdG8gYXBwbHkgbXkgc2tpbGxzIGluIHNvZnR3YXJlIGRldmVsb3BtZW50IGFuZCBtYWtlIGEgcG9zaXRpdmUgaW1wYWN0LlwiLFxuICByZXN1bWVMaW5rOiBcImh0dHBzOi8vZHJpdmUuZ29vZ2xlLmNvbS9maWxlL2QvMTNWbzBSQ1NFcmRaSWNPMjVVNXVDcS01U1puQkhlT1pFL3ZpZXc/dXNwPWRyaXZlc2RrXCIsXG59O1xuXG5leHBvcnQgY29uc3Qgb3BlblNvdXJjZSA9IHtcbiAgZ2l0aHViVXNlck5hbWU6IFwiWWFzaEd1cHRhNzE4XCIsXG59O1xuXG5leHBvcnQgY29uc3QgY29udGFjdCA9IHt9O1xuXG5leHBvcnQgY29uc3Qgc29jaWFsTGlua3M6IFNvY2lhbExpbmtzVHlwZSA9IHtcbiAgZW1haWw6IFwibWFpbHRvOnlhc2htaXR0YWw3MDkueW1AZ21haWwuY29tXCIsXG4gIGxpbmtlZGluOiBcImh0dHBzOi8vd3d3LmxpbmtlZGluLmNvbS9pbi9zZGVZYXNoR3VwdGEvXCIsXG4gIGdpdGh1YjogXCJodHRwczovL2dpdGh1Yi5jb20vWWFzaEd1cHRhNzE4XCIsXG4gIGluc3RhZ3JhbTogXCJodHRwczovL3d3dy5pbnN0YWdyYW0uY29tL3lhc3hoLnhkXCIsXG4gIC8vIGZhY2Vib29rOiAnaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLzFoYW56bGExMDAnLFxuICAvLyB0d2l0dGVyOiAnaHR0cHM6Ly90d2l0dGVyLmNvbS8xaGFuemxhMTAwJyxcbn07XG5cbmV4cG9ydCBjb25zdCBza2lsbHNTZWN0aW9uOiBTa2lsbHNTZWN0aW9uVHlwZSA9IHtcbiAgdGl0bGU6IFwiV2hhdCBJIGRvXCIsXG4gIHN1YlRpdGxlOiBcIkNPTlNUQU5MWSBDT0RJTkcsIENPTlRJTlVPVVNMWSBMRUFSTklORzogQ3JhZnRpbmcgaW5ub3ZhdGl2ZSBzb2x1dGlvbnMgb25lIGxpbmUgb2YgY29kZSBhdCBhIHRpbWUuXCIsXG4gIGRhdGE6IFtcbiAgICB7XG4gICAgICB0aXRsZTogXCJGdWxsIFN0YWNrIERldmVsb3BtZW50XCIsXG4gICAgICBsb3R0aWVBbmltYXRpb25GaWxlOiBcIi9sb3R0aWUvc2tpbGxzL2Z1bGxzdGFjay5qc29uXCIsIC8vIFBhdGggb2YgTG90dGllIEFuaW1hdGlvbiBKU09OIEZpbGVcbiAgICAgIHNraWxsczogW1xuICAgICAgICBlbW9qaShcIuKaoSBKYXZhU2NyaXB0ICwgUmVhY3RKcyAsIFJlZHV4ICwgVHlwZVNjcmlwdCAsIFBvc3RtYW4gLCBIVE1MICwgQ1NTICwgSmF2YSBcIiksXG4gICAgICAgIGVtb2ppKFwiIEMgLCBDKysgLCBTcWwgLCBTcHJpbmcgQm9vdCAsIEdpdCAsIEdpdGh1YlwiKSxcbiAgICAgICAgZW1vamkoXCIuLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLlwiKSxcbiAgICAgICAgZW1vamkoXG4gICAgICAgICAgXCJJbiBteSByb2xlIGFzIGEgU29mdHdhcmUgRGV2ZWxvcGVyIGF0IFJTLUluZnksIEkgbGVkIHRoZSBkZXZlbG9wbWVudCBhbmQgaW1wbGVtZW50YXRpb24gb2YgYW4gRW50ZXJwcmlzZSBSZXNvdXJjZSBQbGFubmluZyBzeXN0ZW0gKEVSUCkgZm9yIGxlYWRpbmcgZS1jb21tZXJjZSBjb21wYW5pZXMuIFRoaXMgZXhwZXJpZW5jZSBub3Qgb25seSBlbmhhbmNlZCBteSBmcm9udGVuZCBkZXZlbG9wbWVudCBza2lsbHMgYnV0IGFsc28gcHJvdmlkZWQgdmFsdWFibGUgaW5zaWdodHMgaW50byBiYWNrZW5kIGFyY2hpdGVjdHVyZSBhbmQgZGF0YWJhc2UgbWFuYWdlbWVudC5cIlxuICAgICAgICApLFxuICAgICAgICBlbW9qaShcIi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uXCIpLFxuICAgICAgICBlbW9qaShcbiAgICAgICAgICBcIkFzIGEgZmluYWwteWVhciBCLlRlY2ggc3R1ZGVudCwgSSBicmluZyBhIHdlYWx0aCBvZiBleHBlcmllbmNlIGluIGZyb250ZW5kIGRldmVsb3BtZW50IGFuZCBhbiB1bndhdmVyaW5nIGNvbW1pdG1lbnQgdG8gZXhwYW5kaW5nIG15IGV4cGVydGlzZSBpbnRvIGJhY2tlbmQgZGV2ZWxvcG1lbnQuIFwiXG4gICAgICAgICksXG4gICAgICAgIGVtb2ppKFwiLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi4uLi5cIiksXG4gICAgICAgIGVtb2ppKFxuICAgICAgICAgIFwiTXkgam91cm5leSBpbiBzb2Z0d2FyZSBkZXZlbG9wbWVudCBoYXMgYmVlbiBtYXJrZWQgYnkgYSBwYXNzaW9uIGZvciBsZWFybmluZyBhbmQgYSBkZWRpY2F0aW9uIHRvIG1hc3RlcmluZyBuZXcgdGVjaG5vbG9naWVzLiBJIGFtIGN1cnJlbnRseSBleHBsb3JpbmcgU3ByaW5nIEJvb3QgYW5kIG90aGVyIGJhY2tlbmQgdGVjaG5vbG9naWVzIHRvIGJyb2FkZW4gbXkgc2tpbGwgc2V0IGFuZCBjb250cmlidXRlIHRvIGZ1bGwtc3RhY2sgcHJvamVjdHMuXCJcbiAgICAgICAgKSxcbiAgICAgIF0sXG4gICAgICBzb2Z0d2FyZVNraWxsczogW1xuICAgICAgICB7XG4gICAgICAgICAgc2tpbGxOYW1lOiBcIkphdmFTY3JpcHRcIixcbiAgICAgICAgICBpY29uaWZ5VGFnOiBcImxvZ29zOmphdmFzY3JpcHRcIixcbiAgICAgICAgfSxcbiAgICAgICAge1xuICAgICAgICAgIHNraWxsTmFtZTogXCJSZWFjdGpzXCIsXG4gICAgICAgICAgaWNvbmlmeVRhZzogXCJ2c2NvZGUtaWNvbnM6ZmlsZS10eXBlLXJlYWN0anNcIixcbiAgICAgICAgfSxcbiAgICAgICAge1xuICAgICAgICAgIHNraWxsTmFtZTogXCJSZWR1eFwiLFxuICAgICAgICAgIGljb25pZnlUYWc6IFwibG9nb3M6cmVkdXhcIixcbiAgICAgICAgfSxcbiAgICAgICAge1xuICAgICAgICAgIHNraWxsTmFtZTogXCJUeXBlU2NyaXB0XCIsXG4gICAgICAgICAgaWNvbmlmeVRhZzogXCJkZXZpY29uOnR5cGVzY3JpcHRcIixcbiAgICAgICAgfSxcbiAgICAgICAge1xuICAgICAgICAgIHNraWxsTmFtZTogXCJQb3N0bWFuXCIsXG4gICAgICAgICAgaWNvbmlmeVRhZzogXCJ2c2NvZGUtaWNvbnM6ZmlsZS10eXBlLXBvc3RtYW5cIixcbiAgICAgICAgfSxcbiAgICAgICAge1xuICAgICAgICAgIHNraWxsTmFtZTogXCJIVE1MXCIsXG4gICAgICAgICAgaWNvbmlmeVRhZzogXCJsb2dvczpodG1sLTVcIixcbiAgICAgICAgfSxcbiAgICAgICAge1xuICAgICAgICAgIHNraWxsTmFtZTogXCJDU1NcIixcbiAgICAgICAgICBpY29uaWZ5VGFnOiBcImxvZ29zOmNzcy0zXCIsXG4gICAgICAgIH0sXG4gICAgICAgIHtcbiAgICAgICAgICBza2lsbE5hbWU6IFwiSmF2YVwiLFxuICAgICAgICAgIGljb25pZnlUYWc6IFwiZGV2aWNvbjpqYXZhLXdvcmRtYXJrXCIsXG4gICAgICAgIH0sXG4gICAgICAgIHtcbiAgICAgICAgICBza2lsbE5hbWU6IFwiQ1wiLFxuICAgICAgICAgIGljb25pZnlUYWc6IFwibWRpOmxhbmd1YWdlLWNcIixcbiAgICAgICAgfSxcbiAgICAgICAge1xuICAgICAgICAgIHNraWxsTmFtZTogXCJDcHBcIixcbiAgICAgICAgICBpY29uaWZ5VGFnOiBcIm1kaTpsYW5ndWFnZS1jcHBcIixcbiAgICAgICAgfSxcbiAgICAgICAge1xuICAgICAgICAgIHNraWxsTmFtZTogXCJTUUxcIixcbiAgICAgICAgICBpY29uaWZ5VGFnOiBcImxvZ29zOm15c3FsXCIsXG4gICAgICAgIH0sXG4gICAgICAgIHtcbiAgICAgICAgICBza2lsbE5hbWU6IFwiU3ByaW5nIEJvb3RcIixcbiAgICAgICAgICBpY29uaWZ5VGFnOiBcInNpbXBsZS1pY29uczpzcHJpbmdib290XCIsXG4gICAgICAgICAgY3NzOiBcIntjb2xvcjogIzZhYWQzZH1cIixcbiAgICAgICAgfSxcbiAgICAgICAge1xuICAgICAgICAgIHNraWxsTmFtZTogXCJHaXRcIixcbiAgICAgICAgICBpY29uaWZ5VGFnOiBcImRldmljb246Z2l0XCIsXG4gICAgICAgIH0sXG4gICAgICAgIHtcbiAgICAgICAgICBza2lsbE5hbWU6IFwiR2l0aHViXCIsXG4gICAgICAgICAgaWNvbmlmeVRhZzogXCJkZXZpY29uOmdpdGh1YlwiLFxuICAgICAgICB9LFxuICAgICAgXSxcbiAgICB9LFxuICBdLFxufTtcblxuZXhwb3J0IGNvbnN0IFNraWxsQmFyczogU2tpbGxCYXJzVHlwZVtdID0gW1xuICB7XG4gICAgU3RhY2s6IFwiRnJvbnRlbmQvRGVzaWduXCIsIC8vSW5zZXJ0IHN0YWNrIG9yIHRlY2hub2xvZ3kgeW91IGhhdmUgZXhwZXJpZW5jZSBpblxuICAgIHByb2dyZXNzUGVyY2VudGFnZTogXCI4NVwiLCAvL0luc2VydCByZWxhdGl2ZSBwcm9maWNpZW5jeSBpbiBwZXJjZW50YWdlXG4gIH0sXG4gIHtcbiAgICBTdGFjazogXCJCYWNrZW5kXCIsXG4gICAgcHJvZ3Jlc3NQZXJjZW50YWdlOiBcIjkwXCIsXG4gIH0sXG4gIHtcbiAgICBTdGFjazogXCJQcm9ncmFtbWluZ1wiLFxuICAgIHByb2dyZXNzUGVyY2VudGFnZTogXCI5NVwiLFxuICB9LFxuXTtcblxuZXhwb3J0IGNvbnN0IGVkdWNhdGlvbkluZm86IEVkdWNhdGlvblR5cGVbXSA9IFtcbiAge1xuICAgIHNjaG9vbE5hbWU6IFwiR3VydSBHb2JpbmQgU2luZ2ggSW5kcmFwcmFzdGhhIFVuaXZlcnNpdHlcIixcbiAgICBzdWJIZWFkZXI6IFwiQmFjaGVsb3Igb2YgVGVjaG5vbG9neVwiLFxuICAgIGR1cmF0aW9uOiBcIkp1bHkgMjAyMCAtIEp1bmUgMjAyNFwiLFxuICAgIGRlc2M6IFwiRWxlY3Ryb25pY3MgYW5kIENvbW11bmljYXRpb25cIixcbiAgICBncmFkZTogXCI4Mi44NiVcIixcbiAgICBkZXNjQnVsbGV0czogW1xuICAgICAgXCJUZWFtd29ya1wiLFxuICAgICAgXCJUZWFtIExlYWRlcnNoaXBcIixcbiAgICAgIFwiVGVhbSBNYW5hZ2VtZW50XCIsXG4gICAgICBcIlByb2plY3QgTWFuYWdlbWVudFwiLFxuICAgICAgXCJQcm9ibGVtIFNvbHZpbmdcIixcbiAgICAgIFwiU29jaWFsIEluZmx1ZW5jZVwiLFxuICAgIF0sIC8vIEFycmF5IG9mIFN0cmluZ3NcbiAgfSxcbiAge1xuICAgIHNjaG9vbE5hbWU6IFwiU3QuIFhhdmllcidzIFNjaG9vbFwiLFxuICAgIHN1YkhlYWRlcjogXCJTZW5pb3Igc2Vjb25kYXJ5IChYSUkpXCIsXG4gICAgZHVyYXRpb246IFwiQXByaWwgMjAxOSAtIE1hcmNoIDIwMjBcIixcbiAgICBkZXNjOiBcIlNjaWVuY2Ugd2l0aCBzcGVjaWFsaXphdGlvbiBpbiBDb21wdXRlcnNcIixcbiAgICBncmFkZTogXCI4OS40MCVcIixcbiAgICBkZXNjQnVsbGV0czogW1wiU29jaWFsIEludGVsbGlnZW5jZVwiLCBcIlBTRCB0byBIVE1MXCIsIFwiQywgQysrXCIsIFwiQ29sbGFib3JhdGl2ZSBQcm9ibGVtIFNvbHZpbmdcIiwgXCJTUUxcIiwgXCJPT1BzXCJdLCAvLyBBcnJheSBvZiBTdHJpbmdzXG4gIH0sXG4gIHtcbiAgICBzY2hvb2xOYW1lOiBcIlN0LiBYYXZpZXIncyBTY2hvb2xcIixcbiAgICBzdWJIZWFkZXI6IFwiU2Vjb25kYXJ5IChYKVwiLFxuICAgIGR1cmF0aW9uOiBcIkFwcmlsIDIwMTcgLSBNYXJjaCAyMDE4XCIsXG4gICAgZGVzYzogXCJcIixcbiAgICBncmFkZTogXCI4Mi40MCVcIixcbiAgICBkZXNjQnVsbGV0czogW1wiSFRNTFwiLCBcIkNTU1wiLCBcIkNvbW11bmljYXRpb25cIiwgXCJNaWNyb3NvZnQgRXhjZWxsXCIsIFwiTWljcm9zb2Z0IFBvd2VyUG9pbnRcIiwgXCJNaWNyb3NvZnQgV29yZFwiXSwgLy8gQXJyYXkgb2YgU3RyaW5nc1xuICB9LFxuXTtcblxuZXhwb3J0IGNvbnN0IGV4cGVyaWVuY2U6IEV4cGVyaWVuY2VUeXBlW10gPSBbXG4gIHtcbiAgICByb2xlOiBcIlNvZnR3YXJlIERldmVsb3BlclwiLFxuICAgIGNvbXBhbnk6IFwiUnMgSW5meVwiLFxuICAgIGNvbXBhbnlMb2dvOiBcIi9pbWcvaWNvbnMvY29tbW9uL3JzLWluZnkucG5nXCIsXG4gICAgZGF0ZTogXCJKdW5lIDIwMjIgLSBBcHJpbCAyMDIzXCIsXG4gICAgLy8gZGVzYzogXCJJIGNyYWZ0ZWQgYmFja2VuZHMgZm9yIGRpdmVyc2Ugd2ViIGFwcHMsIEFQSXMsIGFuZCBXZWJTb2NrZXRzIGluIGUtY29tbWVyY2UsIHBvZGNhc3RzLCBhbmQgcHJvcGVydHkgbWFuYWdlbWVudC4gTWFuYWdlZCBzZXJ2ZXIgdXBrZWVwLCBkZXBsb3ltZW50cyBvbiBMaW51eCwgSGVyb2t1LCBhbmQgQVdTIFMzLiBJbXBsZW1lbnRlZCBQeVRlc3QgZm9yIGF1dG9tYXRlZCB1bml0IGFuZCBpbnRlZ3JhdGlvbiB0ZXN0aW5nLCBzbGFzaGluZyA0IGhvdXJzIG9mIG1hbnVhbCB0ZXN0aW5nIGVhY2ggc3ByaW50LCBmb3J0aWZ5aW5nIGEgZGVwZW5kYWJsZSBhbmQgZmxhd2xlc3MgY29kZSBmb3VuZGF0aW9uLlwiLFxuICAgIGRlc2M6IFwiUmVhY3RKcywgUmVhY3QtUmVkdXgsIFR5cGVTY3JpcHQsIEphdmFTY3JpcHQsIEFQSSBJbnRlZ3JhdGlvbiwgUG9zdG1hbiwgR2l0LCBKV1RcIixcbiAgICBkZXNjQnVsbGV0czogW1xuICAgICAgXCJTdWNjZXNzZnVsbHkgZGV2ZWxvcGVkIGFuZCBpbXBsZW1lbnRlZCBhIGhpZ2hseSBlZmZpY2llbnQgRW50ZXJwcmlzZSBSZXNvdXJjZSBQbGFubmluZyBTeXN0ZW0gRVJQIGZvciBsZWFkaW5nIGUtY29tbWVyY2UgY29tcGFuaWVzLCByZXN1bHRpbmcgYSBpbmNyZWFzZSBpbiByZXZlbnVlIGFuZCBkZWNyZWFzaW5nIG1hbnVhbCBlcnJvcnMuXCIsXG4gICAgICBcIkRldmVsb3BlZCBhbmQgaW1wbGVtZW50ZWQgdXNlci1mcmllbmRseSBpbnRlcmZhY2VzIGZvciB3ZWIgYXBwbGljYXRpb25zIHVzaW5nIFJlYWN0SlMsIHJlc3VsdGluZyBpbiBhIDIwJSBpbXByb3ZlbWVudCBpbiBvdmVyYWxsIHVzZXIgZXhwZXJpZW5jZS4gQW5kIGludGVncmF0ZWQgdmFyaW91cyBBUElzIHdpdGggc3lzdGVtLlwiLFxuICAgICAgXCJDb2xsYWJvcmF0ZWQgd2l0aCBjcm9zcy1mdW5jdGlvbmFsIHRlYW1zIHRvIGdhdGhlciB1c2VyIHJlcXVpcmVtZW50cyBhbmQgZmVlZGJhY2ssIHJlc3VsdGluZyBpbiB0aGUgc3VjY2Vzc2Z1bCBpbXBsZW1lbnRhdGlvbiBvZiBuZXcgZmVhdHVyZXMgYW5kIGVuaGFuY2VtZW50cyB0aGF0IGltcHJvdmVkIGVmZmljaWVuY3kuXCIsXG4gICAgXSxcbiAgfSxcbiAge1xuICAgIHJvbGU6IFwiVGVjaCBUZWFtIExlYWRcIixcbiAgICBjb21wYW55OiBcIkNvZGVDaGVmIEFER0lQUyBDaGFwdGVyXCIsXG4gICAgY29tcGFueUxvZ286IFwiL2ltZy9pY29ucy9jb21tb24vZ2ZnTG9nby5qcGdcIixcbiAgICBkYXRlOiBcIkRlY2VtYmVyIDIwMjAgLSBKYW4gMjAyM1wiLFxuICAgIGRlc2M6IFwiRFNBLCBFdmVudCBNYW5hZ2VtZW50LCBUZWFtIE1hbmFnZW1lbnQsIFRlYW0gQnVpbGRpbmcsIFNRTCwgUHJvYmxlbSBTZXR0ZXIsIE5ldGxpZnksIEZyb250LUVuZCBEZXNpZ25cIixcbiAgICBkZXNjQnVsbGV0czogW1xuICAgICAgXCJEZXNpZ25lZCBhbmQgdXBsb2FkZWQgcHJvYmxlbXMgZm9yIERTQSBDYXJuaXZhbCBhdCBDb2RlQ2hlZiBhbmQgc3VjY2Vzc2Z1bGx5IG9yZ2FuaXplZCBIYWNrYXRob25zIGxpa2UgTGl2ZSB0aGUgY29kZSBhdHRyYWN0aW5nIHBhcnRpY2lwYXRpb24gZnJvbSBodW5kcmVkcyBvZiBzdHVkZW50cyBhbmQgc2VjdXJpbmcgc3BvbnNvcnNoaXBzLlwiLFxuICAgICAgXCJDb25kdWN0IG1vbnRobHkgY29udGVzdHMgbGlrZSBDYW1wdXMgQ29kZSBmb2N1c2VkIG9uIENvbXBldGl0aXZlIFByb2dyYW1taW5nIHRvIGZvc3RlciBwZWVyIGRldmVsb3BtZW50XCIsXG4gICAgXSxcbiAgfSxcbiAge1xuICAgIHJvbGU6IFwiQ2FtcHVzIEFtYmFzc2Fkb3JcIixcbiAgICBjb21wYW55OiBcIkNvZGluZyBCbG9ja3NcIixcbiAgICBjb21wYW55TG9nbzogXCIvaW1nL2ljb25zL2NvbW1vbi9jYkxvZ28uanBnXCIsXG4gICAgZGF0ZTogXCJGZWIgMjAyMSAtIEp1bCAyMDIyXCIsXG4gICAgZGVzYzogXCJNYXJrZXRpbmcsIERTQVwiLFxuICAgIGRlc2NCdWxsZXRzOiBbXG4gICAgICBcIkNvbmR1Y3QgcHJvZ3JhbW1pbmcgZXZlbnRzICYgd29ya3Nob3BzIHRvIGVuZ2FnZSBhbmQgaW5zcGlyZSBzdHVkZW50cy5cIixcbiAgICAgIFwiQ3JlYXRlIGEgY29uZHVjaXZlIGNvZGluZyBlbnZpcm9ubWVudCBhbmQgZW5jb3VyYWdlIHN0dWRlbnRzIHRvIGV4cGxvcmUgZGV2ZWxvcG1lbnQgb3Bwb3J0dW5pdGllcyBkdXJpbmcgdGhlaXIgY29sbGVnZSB5ZWFycy5cIixcbiAgICBdLFxuICB9LFxuICB7XG4gICAgcm9sZTogXCJDYW1wdXMgQW1iYXNzYWRvclwiLFxuICAgIGNvbXBhbnk6IFwiSW5mb3N5c1wiLFxuICAgIGNvbXBhbnlMb2dvOiBcIi9pbWcvaWNvbnMvY29tbW9uL2luZm9zeXNMb2dvLmpwZ1wiLFxuICAgIGRhdGU6IFwiSnVseSAyMDIxIC0gQXByIDIwMjJcIixcbiAgICBkZXNjOiBcIkluZm9ybWF0aW9uIFRlY2hub2xvZ3ksIENvbXBldGl0aXZlIFByb2dyYW1taW5nLCBKYXZhU2NyaXB0XCIsXG4gICAgZGVzY0J1bGxldHM6IFtcbiAgICAgIFwiQ29uZHVjdCBwcm9ncmFtbWluZyBldmVudHMgJiB3b3Jrc2hvcHMgdG8gZW5nYWdlIGFuZCBpbnNwaXJlIHN0dWRlbnRzLlwiLFxuICAgICAgXCJDcmVhdGUgYSBjb25kdWNpdmUgY29kaW5nIGVudmlyb25tZW50IGFuZCBlbmNvdXJhZ2Ugc3R1ZGVudHMgdG8gZXhwbG9yZSBkZXZlbG9wbWVudCBvcHBvcnR1bml0aWVzIGR1cmluZyB0aGVpciBjb2xsZWdlIHllYXJzLlwiLFxuICAgIF0sXG4gIH0sXG5dO1xuXG5leHBvcnQgY29uc3QgcHJvamVjdHM6IFByb2plY3RUeXBlW10gPSBbXG4gIHtcbiAgICBuYW1lOiBcIklNTyB8IEludGVybmF0aW9uYWwgTWF0aCBPbHltcGlhZFwiLFxuICAgIHJvbGU6IFwiRnJlZWxhbmNlIFByb2plY3RcIixcbiAgICBwcm9qZWN0TG9nbzogXCIvaW1nL2ljb25zL2NvbW1vbi9pbW9Mb2dvLmpwZ1wiLFxuICAgIGdpdGh1YjogXCJodHRwczovL2dpdGh1Yi5jb20vUlMtSW5meS9pbW8tc3R1ZGVudFwiLFxuICAgIGxpbms6IFwiaHR0cHM6Ly9pbW8taW5kaWEub3JnL1wiLFxuICAgIGRlc2M6IFwiQVBJIEludGVncmF0aW9uIMK3IEFQSSBUZXN0aW5nIMK3IEpTT04gV2ViIFRva2VuIChKV1QpIMK3IFJlYWN0LmpzIMK3IFBvc3RtYW4gwrcgVHlwZVNjcmlwdCDCtyBDb250aW51b3VzIEludGVncmF0aW9uIGFuZCBDb250aW51b3VzIERlbGl2ZXJ5IChDSS9DRClcIixcbiAgICBkZXNjQnVsbGV0czogW1xuICAgICAgXCJEZXZlbG9wZWQgJiBpbXBsZW1lbnRlZCBpbnRlcmFjdGl2ZSBSZWFjdGpzIGFwcGxpY2F0aW9ucyBmb3IgdGhlIE1hdGhzIE9seW1waWFkLCBlbmhhbmNpbmcgdXNlciBlbmdhZ2VtZW50IGFuZCBpbXByb3ZpbmcgcHJvYmxlbS1zb2x2aW5nIGV4cGVyaWVuY2VzIGFuZCBJbnRlZ3JhdGVkIHZhcmlvdXMgQVBJcy5cIixcbiAgICAgIFwiQ29uZHVjdGVkIHRob3JvdWdoIHRlc3RpbmcgYW5kIGRlYnVnZ2luZyBvZiBkZXZlbG9wZWQgYXBwbGljYXRpb25zIHRvIGVuc3VyZSBzZWFtbGVzcyBmdW5jdGlvbmFsaXR5IGFuZCBvcHRpbWFsIHBlcmZvcm1hbmNlLCBsZWFkaW5nIHRvIGEgc2lnbmlmaWNhbnQgcmVkdWN0aW9uIGluIHVzZXItcmVwb3J0ZWQgaXNzdWVzLlwiLFxuICAgICAgXCJDb2xsYWJvcmF0ZWQgd2l0aCBjcm9zcy1mdW5jdGlvbmFsIHRlYW1zIHRvIGRlc2lnbiBhbmQgZGV2ZWxvcCBtdWx0aXBsZSB1c2VyLWZyaWVuZGx5IHBvcnRhbHMsIGxhdW5jaCBuZXcgcG9ydGFscywgbWVldGluZyBzdHJpY3QgZGVhZGxpbmVzIGFuZCBlbnN1cmluZyBhIHNlYW1sZXNzIHVzZXIgZXhwZXJpZW5jZS5cIixcbiAgICBdLFxuICB9LFxuICB7XG4gICAgbmFtZTogXCJVcmJhbiBLYXJtYSB8IEUtY29tbWVyY2UgV2Vic2l0ZVwiLFxuICAgIHJvbGU6IFwiRnJlZWxhbmNlIFByb2plY3RcIixcbiAgICBwcm9qZWN0TG9nbzogXCIvaW1nL2ljb25zL2NvbW1vbi91a2FybWFMb2dvLnBuZ1wiLFxuICAgIGdpdGh1YjogXCJodHRwczovL2dpdGh1Yi5jb20vUlMtSW5meS91cmJhbi1mYXNoaW9uXCIsXG4gICAgbGluazogXCJodHRwczovL3VyYmFua2FybWFnYi5jby51ay9cIixcbiAgICBkZXNjOiBcIiBBUEkgSW50ZWdyYXRpb24gwrcgQVBJIFRlc3RpbmcgwrcgUmVhY3QuanMgwrcgQ29udGludW91cyBJbnRlZ3JhdGlvbiBhbmQgQ29udGludW91cyBEZWxpdmVyeSAoQ0kvQ0QpXCIsXG4gICAgZGVzY0J1bGxldHM6IFtcbiAgICAgIFwiU3VjY2Vzc2Z1bGx5IGRldmVsb3BlZCBhbmQgbGF1bmNoZWQgYSBoaWdobHkgcmVzcG9uc2l2ZSBhbmQgdmlzdWFsbHkgYXBwZWFsaW5nIGUtY29tbWVyY2Ugd2Vic2l0ZSBmb3IgVXJiYW4gS2FybWEsIGEgcHJvbWluZW50IFVLLWJhc2VkIGZhc2hpb24gY29tcGFueS5cIixcbiAgICAgIFwiTGV2ZXJhZ2VkIFJlYWN0LmpzIGZyYW1ld29yayB0byBidWlsZCBhIGR5bmFtaWMgYW5kIGludGVyYWN0aXZlIGZyb250ZW5kLCBjcmVhdGluZyBhbiBlbmdhZ2luZyB1c2VyIGludGVyZmFjZSBhbmQgZW5oYW5jaW5nIHRoZSBvdmVyYWxsIHVzZXIgZXhwZXJpZW5jZS5cIixcbiAgICAgIFwiSW1wbGVtZW50ZWQgZWZmZWN0aXZlIFNFTyBzdHJhdGVnaWVzLCBmb3IgaW1wcm92ZWQgd2Vic2l0ZSB2aXNpYmlsaXR5IGFuZCBvcmdhbmljIHRyYWZmaWMgZ3Jvd3RoIGZvciBVcmJhbiBLYXJtYS4gVGVzdGVkIEFQSXMgYW5kIGZ1cnRoZXIgaW50ZWdyYXRlZCBBUElzIHdpdGggd2ViIGFwcC5cIixcbiAgICBdLFxuICB9LFxuICB7XG4gICAgbmFtZTogXCJCbGFjayBKYWNrIEdhbWVcIixcbiAgICByb2xlOiBcIlwiLFxuICAgIHByb2plY3RMb2dvOiBcIi9pbWcvaWNvbnMvY29tbW9uL2JqZ2FtZUxvZ28uanBnXCIsXG4gICAgZ2l0aHViOiBcImh0dHBzOi8vZ2l0aHViLmNvbS9ZYXNoR3VwdGE3MTgvQmxhY2tKYWNrLUdhbWVcIixcbiAgICBsaW5rOiBcImh0dHBzOi8veWFzaGd1cHRhNzE4LmdpdGh1Yi5pby9CbGFja0phY2stR2FtZS9cIixcbiAgICBkZXNjOiBcIkhUTUwgwrcgQ1NTIMK3IEphdmFTY3JpcHRcIixcbiAgICBkZXNjQnVsbGV0czogW1xuICAgICAgXCJEZXZlbG9wZWQgYSBKYXZhU2NyaXB0LWJhc2VkIEJsYWNramFjayBnYW1lIHdpdGggYSBtaXggb2Ygc3RyYXRlZ3kgYW5kIGx1Y2suXCIsXG4gICAgICBcIiBEZW1vbnN0cmF0ZWQgcHJvZmljaWVuY3kgaW4gSmF2YVNjcmlwdCBhbmQgQ1NTIHRocm91Z2ggdGhpcyBwcm9qZWN0LiBJbnN0cnVjdGlvbnMgb24gaG93IHRvIHBsYXkgYXJlIGF2YWlsYWJsZSBpbiBteSBHaXRIdWIgcmVwb3NpdG9yeS5cIixcbiAgICAgIC8vIFwiXCIsXG4gICAgXSxcbiAgfSxcbiAge1xuICAgIG5hbWU6IFwiZGV2ZWxvcGVyLXBvcnRmb2xpb1wiLFxuICAgIGRlc2M6IFwiU29mdHdhcmUgRGV2ZWxvcGVyIFBvcnRmb2xpbyBUZW1wbGF0ZSBidWlsdCB3aXRoIHJlYWN0LmpzIGFuZCBuZXh0LmpzIGJvb3RzdHJhcCB0aGF0IGhlbHBzIHlvdSBzaG93Y2FzZSB5b3VyIHdvcmsgYW5kIHNraWxscyBhcyBhIHNvZnR3YXJlIGRldmVsb3Blci5cIixcbiAgICBnaXRodWI6IFwiaHR0cHM6Ly9naXRodWIuY29tL1lhc2hHdXB0YTcxOC9wb3J0Zm9saW9cIixcbiAgICBsaW5rOiBcImh0dHBzOi8vZGV2ZWxvcGVyLXBvcnRmb2xpby0xaGFuemxhMTAwLnZlcmNlbC5hcHAvXCIsXG4gICAgZGVzY0J1bGxldHM6IFtcbiAgICAgIFwiRGV2ZWxvcGVkICYgaW1wbGVtZW50ZWQgaW50ZXJhY3RpdmUgUmVhY3RqcyBhcHBsaWNhdGlvbnMgZm9yIHRoZSBNYXRocyBPbHltcGlhZCwgZW5oYW5jaW5nIHVzZXIgZW5nYWdlbWVudCBhbmQgaW1wcm92aW5nIHByb2JsZW0tc29sdmluZyBleHBlcmllbmNlcyBhbmQgSW50ZWdyYXRlZCB2YXJpb3VzIEFQSXMuXCIsXG4gICAgXSxcbiAgfSxcbiAge1xuICAgIG5hbWU6IFwiS2Fua3lvIFNlbnNpZVwiLFxuICAgIHJvbGU6IFwiU0lIIEhhY2thdGhvblwiLFxuICAgIHByb2plY3RMb2dvOiBcIi9pbWcvaWNvbnMvY29tbW9uL2thbmt5b0xvZ28uanBnXCIsXG4gICAgZ2l0aHViOiBcImh0dHBzOi8vZ2l0aHViLmNvbS9ZYXNoR3VwdGE3MTgvU2Vuc2hpXCIsXG4gICAgbGluazogXCJodHRwczovL2thbmt5by1zZW5zaGkubmV0bGlmeS5hcHAvXCIsXG4gICAgZGVzYzogXCJIVE1MIMK3IENTUyDCtyBKYXZhU2NyaXB0IMK3IFRlYW13b3JrXCIsXG4gICAgLy8gZGVzY0J1bGxldHM6IFtcbiAgICAvLyAgIFwiXCIsXG4gICAgLy8gICBcIlwiLFxuICAgIC8vICAgXCJcIixcbiAgICAvLyBdLFxuICB9LFxuICB7XG4gICAgbmFtZTogXCJNYXh3ZWxsXCIsXG4gICAgcm9sZTogXCJcIixcbiAgICBwcm9qZWN0TG9nbzogXCIvaW1nL2ljb25zL2NvbW1vbi9tYXh3ZWxsTG9nby5qcGdcIixcbiAgICBnaXRodWI6IFwiaHR0cHM6Ly9naXRodWIuY29tL1lhc2hHdXB0YTcxOC9cIixcbiAgICBsaW5rOiBcImh0dHBzOi8vd29tZW4taGVhbHRoLm5ldGxpZnkuYXBwL1wiLFxuICAgIGRlc2M6IFwiSFRNTCDCtyBDU1MgwrcgSmF2YVNjcmlwdCDCtyBUZWFtQ29vcmRpbmF0aW9uIMK3IEJvb3RzdHJhcFwiLFxuICAgIC8vIGRlc2NCdWxsZXRzOiBbXG4gICAgLy8gICBcIlwiLFxuICAgIC8vICAgXCJcIixcbiAgICAvLyAgIFwiXCIsXG4gICAgLy8gXSxcbiAgfSxcbl07XG5cbmV4cG9ydCBjb25zdCBmZWVkYmFja3M6IEZlZWRiYWNrVHlwZVtdID0gW1xuICB7XG4gICAgbmFtZTogXCJTaGFndW5cIixcbiAgICBtYWlsOiBcIm1haWx0bzpzaGFndW4uc2Fib29AcnNpbmZ5LmNvbVwiLFxuICAgIHJvbGU6IFwiQ28tZm91bmRlciBhdCBScy1JbmZ5XCIsXG4gICAgZmVlZGJhY2s6XG4gICAgICBcIllvdSB3ZXJlIGEgd29uZGVyZnVsIGFkZGl0aW9uIHRvIG91ciB0ZWFtIFlhc2guIEknbSBxdWl0ZSBpbXByZXNzZWQgd2l0aCB5b3VyIGFiaWxpdGllcyBhbmQgcHJvZmVzc2lvbmFsIHByYWN0aWNlcy4gWW91IGFwcHJvYWNoIHByb2JsZW1zIGZyb20gYSB1bmlxdWUgcGVyc3BlY3RpdmUgYW5kIGFsd2F5cyBhc2sgdGhlIHJpZ2h0IHF1ZXN0aW9uLiBIZSBoYXMgY29udHJpYnV0ZWQgdG8gdGhlIGdyb3d0aCBvZiBvdXIgb3JnYW5pemF0aW9uIGFuZCBjb250aW51ZXMgdG8gZG8gc28uXCIsXG4gIH0sXG4gIHtcbiAgICBuYW1lOiBcIlJpc2hhYiBKYWluXCIsXG4gICAgcm9sZTogXCJQcm9qZWN0IGhlYWQgYXQgQ2xhcGluZ29cIixcbiAgICBmZWVkYmFjazpcbiAgICAgIFwiWWFzaCBoYXMgYSBkZWVwIHVuZGVyc3RhbmRpbmcgb2Ygd2ViIGRldmVsb3BtZW50IHRlY2hub2xvZ2llcyBhbmQgaXMgYWRlcHQgYXQgdXNpbmcgdGhlbSB0byBidWlsZCBzY2FsYWJsZSwgcm9idXN0LCBhbmQgc2VjdXJlIHdlYiBhcHBsaWNhdGlvbnMuIEhlIGhhcyB3b3JrZWQgb24gdmFyaW91cyBwcm9qZWN0cywgcmFuZ2luZyBmcm9tIHNtYWxsLXNjYWxlIHRvIGxhcmdlLXNjYWxlLCBhbmQgaGFzIHNob3duIGhpcyBhYmlsaXR5IHRvIHdvcmsgY29sbGFib3JhdGl2ZWx5IHdpdGggb3RoZXJzIHdoaWxlIG1haW50YWluaW5nIGEgaGlnaCBsZXZlbCBvZiBwcm9kdWN0aXZpdHkgYW5kIHF1YWxpdHkuIFlhc2ggaXMgYSBwbGVhc3VyZSB0byB3b3JrIHdpdGgsIGFuZCBJIGhhdmUgbm8gZG91YnQgdGhhdCBoZSB3aWxsIGJlIGFuIGFzc2V0IHRvIGFueSB0ZWFtIG9yIG9yZ2FuaXphdGlvbi4gSSBoaWdobHkgcmVjb21tZW5kIFlhc2ggZm9yIGFueSBTRCByb2xlcywgUmVhY3QuanMsIGFuZCBJIHdpc2ggaGltIGFsbCB0aGUgYmVzdCBpbiBoaXMgZnV0dXJlIGVuZGVhdm9ycy5cIixcbiAgfSxcbiAgLy8ge1xuICAvLyAgIG5hbWU6IFwiWmFpZCBaYWZmYXJcIixcbiAgLy8gICByb2xlOiBcIkNFTyBhdCBaUiBUZWNobm9sb2dpZXNcIixcbiAgLy8gICBmZWVkYmFjazpcbiAgLy8gICAgIFwiVmVyeSBza2lsbGVkIGF0IHdoYXQgaGUgZG9lcyBhbmQgaGFzIGFuIGluIGRlcHRoIGtub3dsZWRnZSBvZiBEamFuZ28gYW5kIGhlJ3MgYWx3YXlzIHJlYWR5IHRvIGhhbmRsZSBhbnkgY2hhbGxlbmdlcyB0aHJvd24gYXQgaGltLiBIZSdzIGJlZW4gYSB2YWx1YWJsZSBtZW1iZXIgb2YgbXkgdGVhbSBhbmQgaSBsb29rIGZvcndhcmQgdG8gd29ya2luZyB3aXRoIGhpbSBpbiB0aGUgeWVhcnMgdG8gY29tZVwiLFxuICAvLyB9LFxuXTtcblxuLy8gU2VlIG9iamVjdCBwcm90b3R5cGUgb24gL3R5cGVzL3NlY3Rpb24udHMgcGFnZVxuZXhwb3J0IGNvbnN0IHNlb0RhdGE6IFNFT0RhdGFUeXBlID0ge1xuICB0aXRsZTogXCJZYXNoIEd1cHRhXCIsXG4gIGRlc2NyaXB0aW9uOiBncmVldGluZ3MuZGVzY3JpcHRpb24sXG4gIGF1dGhvcjogXCJIYW56bGEgVGF1cWVlclwiLFxuICBpbWFnZTogXCJodHRwczovL2F2YXRhcnMuZ2l0aHVidXNlcmNvbnRlbnQuY29tL3UvNTkxNzgzODA/dj00XCIsXG4gIC8vIHVybDogXCJodHRwczovL2RldmVsb3Blci1wb3J0Zm9saW8tMWhhbnpsYTEwMC52ZXJjZWwuYXBwXCIsXG4gIGtleXdvcmRzOiBbXG4gICAgXCJZYXNoXCIsXG4gICAgXCJZYXNoIEd1cHRhXCIsXG4gICAgXCJAc2RlWWFzaEd1cHRhXCIsXG4gICAgXCJZYXNoR3VwdGE3MThcIixcbiAgICBcIllhc2ggUG9ydGZvbGlvXCIsXG4gICAgXCJXZWIgRGV2ZWxvcGVyXCIsXG4gICAgXCJSZWFjdEpzXCIsXG4gICAgXCJKYXZhU2NyaXB0XCIsXG4gICAgXCJUeXBlU2NyaXB0XCIsXG4gICAgXCJIVE1MXCIsXG4gICAgXCJDU1NcIixcbiAgICBcIkFQSSBJbnRlZ3JhdGlvblwiLFxuICAgIFwiU29mdHdhcmUgRGV2ZWxvcGVyXCIsXG4gIF0sXG59O1xuIl0sIm5hbWVzIjpbImVtb2ppIiwiZ3JlZXRpbmdzIiwibmFtZSIsInRpdGxlIiwiZGVzY3JpcHRpb24iLCJyZXN1bWVMaW5rIiwib3BlblNvdXJjZSIsImdpdGh1YlVzZXJOYW1lIiwiY29udGFjdCIsInNvY2lhbExpbmtzIiwiZW1haWwiLCJsaW5rZWRpbiIsImdpdGh1YiIsImluc3RhZ3JhbSIsInNraWxsc1NlY3Rpb24iLCJzdWJUaXRsZSIsImRhdGEiLCJsb3R0aWVBbmltYXRpb25GaWxlIiwic2tpbGxzIiwic29mdHdhcmVTa2lsbHMiLCJza2lsbE5hbWUiLCJpY29uaWZ5VGFnIiwiY3NzIiwiU2tpbGxCYXJzIiwiU3RhY2siLCJwcm9ncmVzc1BlcmNlbnRhZ2UiLCJlZHVjYXRpb25JbmZvIiwic2Nob29sTmFtZSIsInN1YkhlYWRlciIsImR1cmF0aW9uIiwiZGVzYyIsImdyYWRlIiwiZGVzY0J1bGxldHMiLCJleHBlcmllbmNlIiwicm9sZSIsImNvbXBhbnkiLCJjb21wYW55TG9nbyIsImRhdGUiLCJwcm9qZWN0cyIsInByb2plY3RMb2dvIiwibGluayIsImZlZWRiYWNrcyIsIm1haWwiLCJmZWVkYmFjayIsInNlb0RhdGEiLCJhdXRob3IiLCJpbWFnZSIsImtleXdvcmRzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./portfolio.ts\n");
-
-/***/ }),
-
-/***/ "./node_modules/next/dynamic.js":
-/*!**************************************!*\
-  !*** ./node_modules/next/dynamic.js ***!
-  \**************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("module.exports = __webpack_require__(/*! ./dist/shared/lib/dynamic */ \"./node_modules/next/dist/shared/lib/dynamic.js\")\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9ub2RlX21vZHVsZXMvbmV4dC9keW5hbWljLmpzLmpzIiwibWFwcGluZ3MiOiJBQUFBLHVIQUFxRCIsInNvdXJjZXMiOlsid2VicGFjazovL2RldmVsb3Blci1wb3J0Zm9saW8vLi9ub2RlX21vZHVsZXMvbmV4dC9keW5hbWljLmpzPzczZDQiXSwic291cmNlc0NvbnRlbnQiOlsibW9kdWxlLmV4cG9ydHMgPSByZXF1aXJlKCcuL2Rpc3Qvc2hhcmVkL2xpYi9keW5hbWljJylcbiJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./node_modules/next/dynamic.js\n");
-
-/***/ }),
-
-/***/ "headroom.js":
-/*!******************************!*\
-  !*** external "headroom.js" ***!
-  \******************************/
+/***/ 895:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("headroom.js");
 
 /***/ }),
 
-/***/ "./loadable":
-/*!***************************************************!*\
-  !*** external "next/dist/shared/lib/loadable.js" ***!
-  \***************************************************/
+/***/ 832:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("next/dist/shared/lib/loadable.js");
 
 /***/ }),
 
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
+/***/ 689:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("next/head");
-
-/***/ }),
-
-/***/ "react":
-/*!************************!*\
-  !*** external "react" ***!
-  \************************/
-/***/ ((module) => {
-
-"use strict";
 module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-easy-emoji":
-/*!***********************************!*\
-  !*** external "react-easy-emoji" ***!
-  \***********************************/
+/***/ 189:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("react-easy-emoji");
-
-/***/ }),
-
-/***/ "react-lottie":
-/*!*******************************!*\
-  !*** external "react-lottie" ***!
-  \*******************************/
-/***/ ((module) => {
-
-"use strict";
 module.exports = require("react-lottie");
 
 /***/ }),
 
-/***/ "react-reveal/Fade":
-/*!************************************!*\
-  !*** external "react-reveal/Fade" ***!
-  \************************************/
+/***/ 665:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("react-reveal/Fade");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 997:
 /***/ ((module) => {
 
-"use strict";
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("react/jsx-runtime");
 
 /***/ }),
 
-/***/ "reactstrap":
-/*!*****************************!*\
-  !*** external "reactstrap" ***!
-  \*****************************/
+/***/ 981:
 /***/ ((module) => {
 
-"use strict";
 module.exports = require("reactstrap");
 
 /***/ }),
 
-/***/ "@iconify/react":
-/*!*********************************!*\
-  !*** external "@iconify/react" ***!
-  \*********************************/
+/***/ 566:
 /***/ ((module) => {
 
-"use strict";
 module.exports = import("@iconify/react");;
 
 /***/ })
@@ -205,7 +641,7 @@ module.exports = import("@iconify/react");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/index.tsx"));
+var __webpack_exports__ = __webpack_require__.X(0, [735,152], () => (__webpack_exec__(174)));
 module.exports = __webpack_exports__;
 
 })();

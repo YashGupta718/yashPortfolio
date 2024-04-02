@@ -30,8 +30,8 @@ export const socialLinks: SocialLinksType = {
   linkedin: "https://www.linkedin.com/in/sdeYashGupta/",
   github: "https://github.com/YashGupta718",
   instagram: "https://www.instagram.com/yasxh.xd",
-  // facebook: 'https://www.facebook.com/1hanzla100',
-  // twitter: 'https://twitter.com/1hanzla100',
+  // facebook: 'https://www.facebook.com/',
+  // twitter: 'https://twitter.com/',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -262,7 +262,7 @@ export const projects: ProjectType[] = [
     name: "developer-portfolio",
     desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
     github: "https://github.com/YashGupta718/portfolio",
-    link: "https://developer-portfolio-1hanzla100.vercel.app/",
+    link: "https://sdeyashgupta.vercel.app/",
     descBullets: [
       "Developed & implemented interactive Reactjs applications for the Maths Olympiad, enhancing user engagement and improving problem-solving experiences and Integrated various APIs.",
     ],
@@ -309,21 +309,15 @@ export const feedbacks: FeedbackType[] = [
     feedback:
       "Yash has a deep understanding of web development technologies and is adept at using them to build scalable, robust, and secure web applications. He has worked on various projects, ranging from small-scale to large-scale, and has shown his ability to work collaboratively with others while maintaining a high level of productivity and quality. Yash is a pleasure to work with, and I have no doubt that he will be an asset to any team or organization. I highly recommend Yash for any SD roles, React.js, and I wish him all the best in his future endeavors.",
   },
-  // {
-  //   name: "Zaid Zaffar",
-  //   role: "CEO at ZR Technologies",
-  //   feedback:
-  //     "Very skilled at what he does and has an in depth knowledge of Django and he's always ready to handle any challenges thrown at him. He's been a valuable member of my team and i look forward to working with him in the years to come",
-  // },
 ];
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
   title: "Yash Gupta",
   description: greetings.description,
-  author: "Hanzla Tauqeer",
+  author: "Yash Gupta",
   image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  // url: "https://developer-portfolio-1hanzla100.vercel.app",
+  url: "https://sdeyashgupta.vercel.app",
   keywords: [
     "Yash",
     "Yash Gupta",
