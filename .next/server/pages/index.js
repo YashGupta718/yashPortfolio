@@ -555,9 +555,9 @@ const feedbacks = [
 const seoData = {
     title: "Yash Gupta",
     description: greetings.description,
-    author: "Hanzla Tauqeer",
-    image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-    // url: "https://developer-portfolio-1hanzla100.vercel.app",
+    author: "Yash Gupta",
+    image: "https://media.licdn.com/dms/image/D5603AQEWhYlcDQ3F9A/profile-displayphoto-shrink_200_200/0/1709036106053?e=1718236800&v=beta&t=kve76uox-qIQIEZ2ZZqOumtne-NrVIltgQX-B_0yDXw",
+    url: "https://sdeyashgupta.vercel.app/",
     keywords: [
         "Yash",
         "Yash Gupta",
