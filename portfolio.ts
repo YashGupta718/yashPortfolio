@@ -15,8 +15,9 @@ export const greetings: GreetingsType = {
   name: "Yash Gupta",
   title: "Hi all, I'm Yash",
   description:
-    "Passionate B.Tech student deeply committed to continuous learning and innovation. Proven track record in software development, with a keen eye for detail and a belief that learning is the cornerstone of personal and professional growth. Driven by an unwavering commitment to excellence, I thrive on continuous learning, believing it to be the key to personal and professional growth. Seeking opportunities to apply my skills in software development and make a positive impact.",
-  resumeLink: "https://drive.google.com/file/d/13Vo0RCSErdZIcO25U5uCq-5SZnBHeOZE/view?usp=drivesdk",
+    "Passionate B.Tech graduate deeply committed to continuous learning and innovation. Proven track record in software development, with a keen eye for detail and a belief that learning is the cornerstone of personal and professional growth. Driven by an unwavering commitment to excellence, I thrive on continuous learning, believing it to be the key to personal and professional growth. Seeking opportunities to apply my skills in software development and make a positive impact.",
+  // resumeLink: "https://drive.google.com/file/d/13Vo0RCSErdZIcO25U5uCq-5SZnBHeOZE/view?usp=drivesdk",
+  resumeLink: "https://drive.google.com/file/d/1-4YEPvor8thMr2Q4CW41PzLSGUPIqsKM/view?usp=drivesdk",
 };
 
 export const openSource = {
@@ -141,7 +142,7 @@ export const educationInfo: EducationType[] = [
     subHeader: "Bachelor of Technology",
     duration: "July 2020 - June 2024",
     desc: "Electronics and Communication",
-    grade: "82.86%",
+    grade: "82.04%",
     descBullets: [
       "Teamwork",
       "Team Leadership",
@@ -171,7 +172,7 @@ export const educationInfo: EducationType[] = [
 
 export const experience: ExperienceType[] = [
   {
-    role: "Software Developer",
+    role: "Software Developer Intern",
     company: "Rs Infy",
     companyLogo: "/img/icons/common/rs-infy.png",
     date: "June 2022 - April 2023",
@@ -184,8 +185,8 @@ export const experience: ExperienceType[] = [
     ],
   },
   {
-    role: "Tech Team Lead",
-    company: "CodeChef ADGIPS Chapter",
+    role: "(COLLEGE EXTRA PERSUIT)",
+    company: "Tech Team Lead @ CodeChef ADGIPS Chapter",
     companyLogo: "/img/icons/common/gfgLogo.jpg",
     date: "December 2020 - Jan 2023",
     desc: "DSA, Event Management, Team Management, Team Building, SQL, Problem Setter, Netlify, Front-End Design",
@@ -195,8 +196,8 @@ export const experience: ExperienceType[] = [
     ],
   },
   {
-    role: "Campus Ambassador",
-    company: "Coding Blocks",
+    role: "(COLLEGE EXTRA PERSUIT)",
+    company: "Campus Ambassador @ Coding Blocks",
     companyLogo: "/img/icons/common/cbLogo.jpg",
     date: "Feb 2021 - Jul 2022",
     desc: "Marketing, DSA",
@@ -206,8 +207,8 @@ export const experience: ExperienceType[] = [
     ],
   },
   {
-    role: "Campus Ambassador",
-    company: "Infosys",
+    role: "(COLLEGE EXTRA PERSUIT)",
+    company: `Campus Ambassador @ Infosys`,
     companyLogo: "/img/icons/common/infosysLogo.jpg",
     date: "July 2021 - Apr 2022",
     desc: "Information Technology, Competitive Programming, JavaScript",
@@ -317,7 +318,8 @@ export const seoData: SEODataType = {
   description: greetings.description,
   author: "Yash Gupta",
   // image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  image: "https://media.licdn.com/dms/image/D5603AQEWhYlcDQ3F9A/profile-displayphoto-shrink_200_200/0/1709036106053?e=1718236800&v=beta&t=kve76uox-qIQIEZ2ZZqOumtne-NrVIltgQX-B_0yDXw",
+  image:
+    "https://media.licdn.com/dms/image/D5603AQEWhYlcDQ3F9A/profile-displayphoto-shrink_200_200/0/1709036106053?e=1718236800&v=beta&t=kve76uox-qIQIEZ2ZZqOumtne-NrVIltgQX-B_0yDXw",
   url: "https://sdeyashgupta.vercel.app",
   keywords: [
     "Yash",
